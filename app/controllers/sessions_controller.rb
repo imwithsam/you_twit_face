@@ -4,6 +4,7 @@ class SessionsController < ApplicationController
 
     if user
       session[:user_id] = user.id
+      flash[:success] = "You are now logged in to YouTwitFace. Twit away!"
       redirect_to dashboard_path
     else
       flash[:danger] = "Unable to log in with your Twitter account."
