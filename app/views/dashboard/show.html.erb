@@ -1,4 +1,25 @@
-<h2>You are authorized!</h2>
-<%= image_tag current_user.image_url, class: "img-circle img-thumbnail home-image" %>
-<p><%= current_user.nickname %></p>
-<%= link_to "Logout", logout_path %>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3">
+      <div class="well well-lg">
+        <p>
+        <%= image_tag current_user.image_url, class: "img-responseive img-rounded" %>
+        <%= current_user.nickname %>
+        </p>
+        <p>Follower Count: 0</p>
+        <p>Following Count: 0</p>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="well well-lg">
+        <h4>New Twits</h4>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="well well-lg">
+        <%= link_to "Twit", "#", class: "btn btn-primary" %>
+        <%= link_to "Favorite Twit", "#", class: "btn btn-default" %>
+      </div>
+    </div>
+  </div>
+</div>

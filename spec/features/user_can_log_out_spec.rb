@@ -31,7 +31,7 @@ RSpec.feature "User can log out", type: :feature do
 
   scenario "User logs in with Twitter then logs out" do
     visit root_path
-    click_link "Login with Twitter"
+    click_link "Login"
     click_link "Logout"
 
     within(".alert-success") do
