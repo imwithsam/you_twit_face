@@ -16,8 +16,8 @@
         <h4>New Twits</h4>
         <% @twits.each do |twit| %>
         <div class="panel panel-primary">
-          <div class="panel-header">
-            <%= twit.source.html_safe %>
+          <div class="panel-heading">
+            <h3 class="panel-title"><%= twit.source.html_safe %></a></h3>
           </div>
           <div class="panel-body">
             <%= twit.text %>
