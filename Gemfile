@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.2.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
@@ -35,6 +35,8 @@ gem 'figaro'
 
 gem 'twitter'
 
+gem 'rails_12factor'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -43,11 +45,14 @@ group :development, :test do
   gem 'byebug'
 
   gem 'rspec-rails'
+end
 
+group :test do
   gem 'capybara'
   gem 'launchy'
-
   gem 'simplecov'
+  gem 'vcr'
+  gem 'webmock'
 end
 
 group :development do
