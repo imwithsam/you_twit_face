@@ -4,4 +4,8 @@ Rails.application.routes.draw do
   get "/logout", to: "sessions#destroy"
   get "/dashboard", to: "dashboard#show"
   root "home#show"
+
+  # TODO: Add a destroy route if we want to be able to unfavorite a Twit.
+  resources :favorites, only: [:update]
+  resources :twits, only: [:create]
 end
