@@ -18,4 +18,19 @@ class User < ActiveRecord::Base
 
     user
   end
+
+  def twit_count
+    twitter_stats ||= TwitterService.new(self).user
+    twitter_stats.statuses_count
+  end
+
+  def following_count
+    twitter_stats ||= TwitterService.new(self).user
+    twitter_stats.friends_count
+  end
+
+  def followers_count
+    twitter_stats ||= TwitterService.new(self).user
+    twitter_stats.followers_count
+  end
 end
