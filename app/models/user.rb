@@ -21,7 +21,7 @@ class User < ActiveRecord::Base
 
   def twit_count
     twitter_stats ||= TwitterService.new(self).user
-    twitter_stats.statuses_count
+    twitter_stats.tweets_count
   end
 
   def following_count
