@@ -4,15 +4,29 @@
       <div class="well well-lg">
         <p>
         <%= image_tag current_user.image_url, class: "img-responseive img-rounded" %>
-        <%= current_user.nickname %>
+        @<%= current_user.nickname %>
         </p>
-        <p>Follower Count: 0</p>
-        <p>Following Count: 0</p>
+        <p>Twits: <%= current_user.twit_count %></p>
+        <p>Following: <%= current_user.following_count %></p>
+        <p>Followers: <%= current_user.followers_count %></p>
       </div>
     </div>
     <div class="col-lg-6">
       <div class="well well-lg">
         <h4>New Twits</h4>
+        <% @twits.each do |twit| %>
+        <div class="panel panel-primary">
+          <div class="panel-header">
+            <%= twit.source.html_safe %>
+          </div>
+          <div class="panel-body">
+            <%= twit.text %>
+          </div>
+          <div class="panel-footer">
+            Fav ReTwit Reply
+          </div>
+        </div>
+        <% end %>
       </div>
     </div>
     <div class="col-lg-3">

@@ -37,7 +37,7 @@ RSpec.feature "User can log in with Twitter", type: :feature do
       expect(page).to have_content("You are now logged in to YouTwitFace. Twit away!")
     end
     expect(page).to have_xpath("//img[@src=\"https://pbs.twimg.com/profile_images/606479431251550208/uYn3hNom.jpg\"]")
-    expect(page).to have_content("imwithsam")
+    expect(page).to have_content("@imwithsam")
   end
 
   scenario "User logs in with Twitter, logs out, then back in" do
@@ -50,6 +50,6 @@ RSpec.feature "User can log in with Twitter", type: :feature do
       expect(page).to have_content("You are now logged in to YouTwitFace. Twit away!")
     end
     expect(page).to have_xpath("//img[@src=\"https://pbs.twimg.com/profile_images/606479431251550208/uYn3hNom.jpg\"]")
-    expect(page).to have_content("imwithsam")
+    expect(page).to have_content("@imwithsam")
   end
 end
