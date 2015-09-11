@@ -16,4 +16,8 @@ class Twit
   def post_twit(message)
     service.update(message)
   end
+
+  def retwit_twit(twits)
+    service.retweet(twits)
+  end
 end

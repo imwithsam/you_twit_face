@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   # TODO: Add a destroy route if we want to be able to unfavorite a Twit.
   resources :favorites, only: [:update]
   resources :twits, only: [:create]
+  resources :retwit, only: [:update]
 end

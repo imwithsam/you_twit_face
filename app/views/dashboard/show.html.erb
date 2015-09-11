@@ -23,9 +23,33 @@
             <%= twit.text %>
           </div>
           <div class="panel-footer">
-            <%= link_to content_tag(:span, "", class: ["glyphicon", "glyphicon-sunglasses", ("selected" if twit.favorited?)], "aria-hidden": "true"), favorite_path(twit.id), method: :patch %>
-            <%= link_to content_tag(:span, "", class: ["glyphicon", "glyphicon-retweet"], "aria-hidden": "true"), "#" %>
-            <%= link_to content_tag(:span, "", class: ["glyphicon", "glyphicon-menu-left"], "aria-hidden": "true"), "#" %>
+            <%= link_to(
+              content_tag(:span,
+                          "",
+                          class: ["glyphicon", "glyphicon-sunglasses",
+                                  ("selected" if twit.favorited?)],
+                          "aria-hidden": "true"),
+              favorite_path(twit.id),
+              method: :patch,
+              class: "twit-favorite") %>
+            &nbsp;
+            <%= link_to(
+              content_tag(:span,
+                          "",
+                          class: ["glyphicon", "glyphicon-retweet"],
+                          "aria-hidden": "true"),
+              retwit_path(twit.id),
+              method: :patch,
+              class: "twit-retwit") %>
+            &nbsp;
+            <%= link_to(
+              content_tag(:span,
+                          "",
+                          class: ["glyphicon", "glyphicon-menu-left"],
+                          "aria-hidden": "true"),
+              favorite_path(twit.id),
+              method: :patch,
+              class: "twit-reply") %>
           </div>
         </div>
         <% end %>
