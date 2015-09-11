@@ -24,13 +24,19 @@ class TwitterService
 
   def update(twit_id = nil, message)
     if twit_id
-      client.update(message, in_reply_to_status_id: twit_id)
+      result = client.update(message, in_reply_to_status_id: twit_id)
     else
-      client.update(message)
+      result = client.update(message)
     end
   end
 
   def retweet(twits)
-    client.retweet(twits)
+    begin
+      result = client.retweet(twits)
+    rescue
+      return false
+    end
+
+    result
   end
 end
