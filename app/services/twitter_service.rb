@@ -22,8 +22,12 @@ class TwitterService
     client.favorite(twits)
   end
 
-  def update(message)
-    client.update(message)
+  def update(twit_id = nil, message)
+    if twit_id
+      client.update(message, in_reply_to_status_id: twit_id)
+    else
+      client.update(message)
+    end
   end
 
   def retweet(twits)
