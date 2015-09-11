@@ -43,4 +43,23 @@ RSpec.feature "Post Twit", type: :feature do
       end
     end
   end
+
+  scenario "User tries to post a Twit longer than 140 characters" do
+    VCR.use_cassette("user_posts_a_twit_longer_than_140_characters") do
+      visit root_path
+      click_link "Login"
+      within("form") do
+        fill_in "twit[message]",
+          with: "This is a test of the Twitter API system. This tweet is" \
+            " longer than 140 characters and should fail to be submitted." \
+            " Length of 141 characters."
+        find("button[type='submit']").click
+      end
+
+      within(".alert-danger") do
+        expect(page).to have_content("Unable to post your Twit. Twits can be" \
+        " no longer than 140 characters long.")
+      end
+    end
+  end
 end
