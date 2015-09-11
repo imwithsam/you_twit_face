@@ -1,0 +1,942 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/statuses/home_timeline.json?count=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="mTLyBXknuHQWtGBa4QBXFdGkn", oauth_nonce="7c8c6d7235103fa6cced2b3fe9a2103b",
+        oauth_signature="yRg%2BX%2FJ0U7s6wSgaySgWeKiG8Bc%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1441972698", oauth_token="21419451-NdGFFUNbmmhujkkANewroA21K2roEweJOSMIul0sN",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '5717'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 11 Sep 2015 11:58:17 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 11 Sep 2015 11:58:17 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A144197269718371438; Domain=.twitter.com; Path=/; Expires=Sun,
+        10-Sep-2017 11:58:17 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 0ddf4d5cdf0f3e45f4f9cce70cc9e185
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '12'
+      X-Rate-Limit-Reset:
+      - '1441973259'
+      X-Response-Time:
+      - '49'
+      X-Transaction:
+      - f0cc2e1a8df6241b
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"created_at":"Fri Sep 11 11:57:26 +0000 2015","id":642305950129475584,"id_str":"642305950129475584","text":"USDA
+        study found kids who ate breakfast did better on math tests than those who
+        skipped the meal. Here\u2019s what to eat:\nhttp:\/\/t.co\/fuPagpTE9F","source":"\u003ca
+        href=\"https:\/\/about.twitter.com\/products\/tweetdeck\" rel=\"nofollow\"\u003eTweetDeck\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":12133382,"id_str":"12133382","name":"PBS","screen_name":"PBS","location":"Arlington,
+        VA","description":"PBS invites you to discover new ideas and explore new worlds.
+        Join us here for conversation and sharing.","url":"http:\/\/t.co\/njsUdPits1","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/njsUdPits1","expanded_url":"http:\/\/pbs.org\/","display_url":"pbs.org","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":2184737,"friends_count":166115,"listed_count":17050,"created_at":"Fri
+        Jan 11 22:05:56 +0000 2008","favourites_count":1957,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":true,"verified":true,"statuses_count":47169,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"FFFFFF","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/459415767801274368\/YjerTXwZ.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/459415767801274368\/YjerTXwZ.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/536909907669184512\/t3o0BV4L_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/536909907669184512\/t3o0BV4L_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/12133382\/1441294388","profile_link_color":"081929","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"E5FCFF","profile_text_color":"170400","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":2,"favorite_count":1,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/fuPagpTE9F","expanded_url":"http:\/\/to.pbs.org\/1i3ecoU","display_url":"to.pbs.org\/1i3ecoU","indices":[118,140]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 11:56:41 +0000 2015","id":642305762111258624,"id_str":"642305762111258624","text":"Broad
+        Daylight Shooting Possibly Gang-Related, Teen Hit Multiple Times (VIDEO)\n
+        http:\/\/t.co\/vVD6n34uGV","source":"\u003ca href=\"http:\/\/twitter.com\"
+        rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":17451031,"id_str":"17451031","name":"DenverWestword","screen_name":"DenverWestword","location":"Denver,
+        CO","description":"News and frivolity from Denver''s alt-weekly.","url":"http:\/\/t.co\/dwu9OsfV62","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/dwu9OsfV62","expanded_url":"http:\/\/www.westword.com","display_url":"westword.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":79251,"friends_count":3845,"listed_count":1591,"created_at":"Mon
+        Nov 17 21:23:42 +0000 2008","favourites_count":1240,"utc_offset":-25200,"time_zone":"Pacific
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":27787,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"9AE4E8","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/790842741\/dc4297a7d25a37f6af1853f4847f5627.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/790842741\/dc4297a7d25a37f6af1853f4847f5627.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/436592323758006273\/m-iK-XeP_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/436592323758006273\/m-iK-XeP_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/17451031\/1398463995","profile_link_color":"0084B4","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDFFCC","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/vVD6n34uGV","expanded_url":"http:\/\/www.westword.com\/news\/broad-daylight-shooting-possibly-gang-related-teen-hit-multiple-times-7132345","display_url":"westword.com\/news\/broad-day\u2026","indices":[80,102]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 11:56:37 +0000 2015","id":642305742343684097,"id_str":"642305742343684097","text":"The
+        real game changer: Apple finally ships middle-finger emoji https:\/\/t.co\/AAtRQtgOcJ
+        by @obrien http:\/\/t.co\/PkkfeWW3NA","source":"\u003ca href=\"http:\/\/venturebeat.com\"
+        rel=\"nofollow\"\u003eVentureBeat\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":60642052,"id_str":"60642052","name":"VentureBeat","screen_name":"VentureBeat","location":"San
+        Francisco + NYC","description":"We bring you news on what matters in the tech
+        business world.","url":"http:\/\/t.co\/vNmL0zJnXy","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/vNmL0zJnXy","expanded_url":"http:\/\/www.venturebeat.com","display_url":"venturebeat.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":549592,"friends_count":1482,"listed_count":16439,"created_at":"Mon
+        Jul 27 16:34:47 +0000 2009","favourites_count":621,"utc_offset":-25200,"time_zone":"Pacific
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":65553,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F1F1F1","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/421572594\/VB_Twitter_BG02.jpg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/421572594\/VB_Twitter_BG02.jpg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/615577992815882240\/Iap3Di46_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/615577992815882240\/Iap3Di46_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/60642052\/1440020242","profile_link_color":"E31C29","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"F1F1F1","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":3,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"obrien","name":"Chris
+        O''Brien","id":10952962,"id_str":"10952962","indices":[90,97]}],"urls":[{"url":"https:\/\/t.co\/AAtRQtgOcJ","expanded_url":"https:\/\/wp.me\/p5hvhT-7yIz","display_url":"wp.me\/p5hvhT-7yIz","indices":[63,86]}],"media":[{"id":642305741395750912,"id_str":"642305741395750912","indices":[98,120],"media_url":"http:\/\/pbs.twimg.com\/media\/COntqzEWcAAcdvY.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COntqzEWcAAcdvY.jpg","url":"http:\/\/t.co\/PkkfeWW3NA","display_url":"pic.twitter.com\/PkkfeWW3NA","expanded_url":"http:\/\/twitter.com\/VentureBeat\/status\/642305742343684097\/photo\/1","type":"photo","sizes":{"large":{"w":780,"h":417,"resize":"fit"},"medium":{"w":600,"h":320,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":181,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642305741395750912,"id_str":"642305741395750912","indices":[98,120],"media_url":"http:\/\/pbs.twimg.com\/media\/COntqzEWcAAcdvY.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COntqzEWcAAcdvY.jpg","url":"http:\/\/t.co\/PkkfeWW3NA","display_url":"pic.twitter.com\/PkkfeWW3NA","expanded_url":"http:\/\/twitter.com\/VentureBeat\/status\/642305742343684097\/photo\/1","type":"photo","sizes":{"large":{"w":780,"h":417,"resize":"fit"},"medium":{"w":600,"h":320,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":181,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 11:56:36 +0000 2015","id":642305738002558976,"id_str":"642305738002558976","text":"#WeAreBroncos
+        Who''s excited!!?? Kickoff is at 2:25pm Sunday. #9newsmornings http:\/\/t.co\/Yj33kOeVzE","source":"\u003ca
+        href=\"http:\/\/www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":19032473,"id_str":"19032473","name":"9NEWS
+        Denver","screen_name":"9NEWS","location":"Denver, Colorado","description":"Headlines:
+        Yes, but use Twitter for much more: #BeOn9, #9WX, chats, etc. We use Twitter
+        to engage with you! We also, RT Team 9NEWS http:\/\/t.co\/sGKKRaZynN.","url":"http:\/\/t.co\/tqpZuE2KEo","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/tqpZuE2KEo","expanded_url":"http:\/\/www.9news.com","display_url":"9news.com","indices":[0,22]}]},"description":{"urls":[{"url":"http:\/\/t.co\/sGKKRaZynN","expanded_url":"http:\/\/on9news.tv\/9team","display_url":"on9news.tv\/9team","indices":[131,153]}]}},"protected":false,"followers_count":174368,"friends_count":18250,"listed_count":2684,"created_at":"Thu
+        Jan 15 18:32:46 +0000 2009","favourites_count":1004,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":true,"statuses_count":213218,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"13078B","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/575654239680114688\/PWqE92oA.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/575654239680114688\/PWqE92oA.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/607907370375585792\/98OHpInF_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/607907370375585792\/98OHpInF_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/19032473\/1426081767","profile_link_color":"821522","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"B3C2DF","profile_text_color":"333333","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":2,"entities":{"hashtags":[{"text":"WeAreBroncos","indices":[0,13]},{"text":"9newsmornings","indices":[61,75]}],"symbols":[],"user_mentions":[],"urls":[],"media":[{"id":642305737784467456,"id_str":"642305737784467456","indices":[76,98],"media_url":"http:\/\/pbs.twimg.com\/media\/COntqlnWoAAZxDX.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COntqlnWoAAZxDX.jpg","url":"http:\/\/t.co\/Yj33kOeVzE","display_url":"pic.twitter.com\/Yj33kOeVzE","expanded_url":"http:\/\/twitter.com\/9NEWS\/status\/642305738002558976\/photo\/1","type":"photo","sizes":{"medium":{"w":405,"h":220,"resize":"fit"},"large":{"w":405,"h":220,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":184,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642305737784467456,"id_str":"642305737784467456","indices":[76,98],"media_url":"http:\/\/pbs.twimg.com\/media\/COntqlnWoAAZxDX.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COntqlnWoAAZxDX.jpg","url":"http:\/\/t.co\/Yj33kOeVzE","display_url":"pic.twitter.com\/Yj33kOeVzE","expanded_url":"http:\/\/twitter.com\/9NEWS\/status\/642305738002558976\/photo\/1","type":"photo","sizes":{"medium":{"w":405,"h":220,"resize":"fit"},"large":{"w":405,"h":220,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":184,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 11:56:22 +0000 2015","id":642305680947474432,"id_str":"642305680947474432","text":"WeChat
+        introduces Evernote-style clip functionality in latest iOS update https:\/\/t.co\/oLqTgvJchF
+        by @michaeldwm http:\/\/t.co\/nQGIhnT53D","source":"\u003ca href=\"http:\/\/venturebeat.com\"
+        rel=\"nofollow\"\u003eVentureBeat\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":60642052,"id_str":"60642052","name":"VentureBeat","screen_name":"VentureBeat","location":"San
+        Francisco + NYC","description":"We bring you news on what matters in the tech
+        business world.","url":"http:\/\/t.co\/vNmL0zJnXy","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/vNmL0zJnXy","expanded_url":"http:\/\/www.venturebeat.com","display_url":"venturebeat.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":549592,"friends_count":1482,"listed_count":16439,"created_at":"Mon
+        Jul 27 16:34:47 +0000 2009","favourites_count":621,"utc_offset":-25200,"time_zone":"Pacific
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":65553,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F1F1F1","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/421572594\/VB_Twitter_BG02.jpg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/421572594\/VB_Twitter_BG02.jpg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/615577992815882240\/Iap3Di46_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/615577992815882240\/Iap3Di46_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/60642052\/1440020242","profile_link_color":"E31C29","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"F1F1F1","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":1,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"michaeldwm","name":"Michael
+        de Waal-Mont","id":81422326,"id_str":"81422326","indices":[100,111]}],"urls":[{"url":"https:\/\/t.co\/oLqTgvJchF","expanded_url":"https:\/\/wp.me\/p5hvhT-7yHS","display_url":"wp.me\/p5hvhT-7yHS","indices":[73,96]}],"media":[{"id":642305680758673408,"id_str":"642305680758673408","indices":[112,134],"media_url":"http:\/\/pbs.twimg.com\/media\/COntnRLWEAAyToL.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COntnRLWEAAyToL.jpg","url":"http:\/\/t.co\/nQGIhnT53D","display_url":"pic.twitter.com\/nQGIhnT53D","expanded_url":"http:\/\/twitter.com\/VentureBeat\/status\/642305680947474432\/photo\/1","type":"photo","sizes":{"medium":{"w":600,"h":315,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":780,"h":410,"resize":"fit"},"small":{"w":340,"h":178,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642305680758673408,"id_str":"642305680758673408","indices":[112,134],"media_url":"http:\/\/pbs.twimg.com\/media\/COntnRLWEAAyToL.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COntnRLWEAAyToL.jpg","url":"http:\/\/t.co\/nQGIhnT53D","display_url":"pic.twitter.com\/nQGIhnT53D","expanded_url":"http:\/\/twitter.com\/VentureBeat\/status\/642305680947474432\/photo\/1","type":"photo","sizes":{"medium":{"w":600,"h":315,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":780,"h":410,"resize":"fit"},"small":{"w":340,"h":178,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 11:54:58 +0000 2015","id":642305326830759937,"id_str":"642305326830759937","text":"RT
+        @CBS4Lauren: Talking w\/ firefighters live about how 9\/11 stair climbs have
+        grown &amp; help families. Watch http:\/\/t.co\/0PCCTIpI2e #CBS4Morn\u2026","source":"\u003ca
+        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":16313592,"id_str":"16313592","name":"CBSDenver","screen_name":"CBSDenver","location":"Denver,
+        Colorado","description":"CBS4 is located in Denver, Colo. at 1044 Lincoln.
+        In Denver, you can watch CBS4 on Channel 4, KCNC-TV.","url":"http:\/\/t.co\/9h87coXQaB","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/9h87coXQaB","expanded_url":"http:\/\/cbsdenver.com","display_url":"cbsdenver.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":82690,"friends_count":15377,"listed_count":2025,"created_at":"Tue
+        Sep 16 17:23:37 +0000 2008","favourites_count":1213,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":85752,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"010332","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000163916450\/PzyO9FaE.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000163916450\/PzyO9FaE.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/553371313864069121\/X-RH3aZz_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/553371313864069121\/X-RH3aZz_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/16313592\/1400287829","profile_link_color":"0000FF","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"BCE3FB","profile_text_color":"000000","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Fri
+        Sep 11 11:53:44 +0000 2015","id":642305016347295746,"id_str":"642305016347295746","text":"Talking
+        w\/ firefighters live about how 9\/11 stair climbs have grown &amp; help families.
+        Watch http:\/\/t.co\/0PCCTIpI2e #CBS4Mornings @CBSDenver","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2279716418,"id_str":"2279716418","name":"Lauren
+        DiSpirito","screen_name":"CBS4Lauren","location":"Fort Collins, CO","description":"@CBSDenver
+        Northern Newsroom Reporter. NJ native. Lover of nonfiction. Skier. Villanova
+        Wildcat. Philly sports fan. Tweet\/send news tips to lrdispirito@cbs.com","url":"http:\/\/t.co\/wEe0dniNMA","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/wEe0dniNMA","expanded_url":"http:\/\/cbsdenver.com","display_url":"cbsdenver.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":919,"friends_count":1030,"listed_count":44,"created_at":"Mon
+        Jan 06 23:23:34 +0000 2014","favourites_count":415,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":1399,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000164341980\/AeL-4zeo.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000164341980\/AeL-4zeo.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/525025880549388288\/qQ4CA-qN_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/525025880549388288\/qQ4CA-qN_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2279716418\/1440542667","profile_link_color":"0084B4","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":0,"entities":{"hashtags":[{"text":"CBS4Mornings","indices":[118,131]}],"symbols":[],"user_mentions":[{"screen_name":"CBSDenver","name":"CBSDenver","id":16313592,"id_str":"16313592","indices":[132,142]}],"urls":[{"url":"http:\/\/t.co\/0PCCTIpI2e","expanded_url":"http:\/\/cbsdenver.com\/show\/live-video\/","display_url":"cbsdenver.com\/show\/live-vide\u2026","indices":[95,117]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"entities":{"hashtags":[{"text":"CBS4Mornings","indices":[134,144]}],"symbols":[],"user_mentions":[{"screen_name":"CBS4Lauren","name":"Lauren
+        DiSpirito","id":2279716418,"id_str":"2279716418","indices":[3,14]},{"screen_name":"CBSDenver","name":"CBSDenver","id":16313592,"id_str":"16313592","indices":[143,144]}],"urls":[{"url":"http:\/\/t.co\/0PCCTIpI2e","expanded_url":"http:\/\/cbsdenver.com\/show\/live-video\/","display_url":"cbsdenver.com\/show\/live-vide\u2026","indices":[111,133]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 11:54:53 +0000 2015","id":642305308023488512,"id_str":"642305308023488512","text":"RT
+        @CBS4Lauren: RedRocks stair climb for 343 fire fighters who died 9\/11. Details:
+        http:\/\/t.co\/OyGAtSugaN #neverforget #CBS4Mornings http:\/\u2026","source":"\u003ca
+        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":16313592,"id_str":"16313592","name":"CBSDenver","screen_name":"CBSDenver","location":"Denver,
+        Colorado","description":"CBS4 is located in Denver, Colo. at 1044 Lincoln.
+        In Denver, you can watch CBS4 on Channel 4, KCNC-TV.","url":"http:\/\/t.co\/9h87coXQaB","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/9h87coXQaB","expanded_url":"http:\/\/cbsdenver.com","display_url":"cbsdenver.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":82690,"friends_count":15377,"listed_count":2025,"created_at":"Tue
+        Sep 16 17:23:37 +0000 2008","favourites_count":1213,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":85752,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"010332","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000163916450\/PzyO9FaE.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000163916450\/PzyO9FaE.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/553371313864069121\/X-RH3aZz_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/553371313864069121\/X-RH3aZz_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/16313592\/1400287829","profile_link_color":"0000FF","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"BCE3FB","profile_text_color":"000000","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Fri
+        Sep 11 11:18:56 +0000 2015","id":642296260054020096,"id_str":"642296260054020096","text":"RedRocks
+        stair climb for 343 fire fighters who died 9\/11. Details: http:\/\/t.co\/OyGAtSugaN
+        #neverforget #CBS4Mornings http:\/\/t.co\/Bnmgub3B6X\u201d","source":"\u003ca
+        href=\"http:\/\/twitter.com\/#!\/download\/ipad\" rel=\"nofollow\"\u003eTwitter
+        for iPad\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2279716418,"id_str":"2279716418","name":"Lauren
+        DiSpirito","screen_name":"CBS4Lauren","location":"Fort Collins, CO","description":"@CBSDenver
+        Northern Newsroom Reporter. NJ native. Lover of nonfiction. Skier. Villanova
+        Wildcat. Philly sports fan. Tweet\/send news tips to lrdispirito@cbs.com","url":"http:\/\/t.co\/wEe0dniNMA","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/wEe0dniNMA","expanded_url":"http:\/\/cbsdenver.com","display_url":"cbsdenver.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":919,"friends_count":1030,"listed_count":44,"created_at":"Mon
+        Jan 06 23:23:34 +0000 2014","favourites_count":415,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":1399,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000164341980\/AeL-4zeo.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000164341980\/AeL-4zeo.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/525025880549388288\/qQ4CA-qN_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/525025880549388288\/qQ4CA-qN_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2279716418\/1440542667","profile_link_color":"0084B4","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":0,"entities":{"hashtags":[{"text":"neverforget","indices":[90,102]},{"text":"CBS4Mornings","indices":[103,116]}],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/OyGAtSugaN","expanded_url":"http:\/\/cbsloc.al\/1CrwNQc","display_url":"cbsloc.al\/1CrwNQc","indices":[67,89]}],"media":[{"id":642291542070136832,"id_str":"642291542070136832","indices":[117,139],"media_url":"http:\/\/pbs.twimg.com\/media\/COngwSdUEAA5Vf0.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COngwSdUEAA5Vf0.jpg","url":"http:\/\/t.co\/Bnmgub3B6X","display_url":"pic.twitter.com\/Bnmgub3B6X","expanded_url":"http:\/\/twitter.com\/eddiecastro55\/status\/642291542221193216\/photo\/1","type":"photo","sizes":{"small":{"w":340,"h":254,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":600,"h":449,"resize":"fit"},"large":{"w":611,"h":458,"resize":"fit"}},"source_status_id":642291542221193216,"source_status_id_str":"642291542221193216","source_user_id":357453015,"source_user_id_str":"357453015"}]},"extended_entities":{"media":[{"id":642291542070136832,"id_str":"642291542070136832","indices":[117,139],"media_url":"http:\/\/pbs.twimg.com\/media\/COngwSdUEAA5Vf0.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COngwSdUEAA5Vf0.jpg","url":"http:\/\/t.co\/Bnmgub3B6X","display_url":"pic.twitter.com\/Bnmgub3B6X","expanded_url":"http:\/\/twitter.com\/eddiecastro55\/status\/642291542221193216\/photo\/1","type":"photo","sizes":{"small":{"w":340,"h":254,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":600,"h":449,"resize":"fit"},"large":{"w":611,"h":458,"resize":"fit"}},"source_status_id":642291542221193216,"source_status_id_str":"642291542221193216","source_user_id":357453015,"source_user_id_str":"357453015"}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"entities":{"hashtags":[{"text":"neverforget","indices":[106,118]},{"text":"CBS4Mornings","indices":[119,132]}],"symbols":[],"user_mentions":[{"screen_name":"CBS4Lauren","name":"Lauren
+        DiSpirito","id":2279716418,"id_str":"2279716418","indices":[3,14]}],"urls":[{"url":"http:\/\/t.co\/OyGAtSugaN","expanded_url":"http:\/\/cbsloc.al\/1CrwNQc","display_url":"cbsloc.al\/1CrwNQc","indices":[83,105]}],"media":[{"id":642291542070136832,"id_str":"642291542070136832","indices":[139,140],"media_url":"http:\/\/pbs.twimg.com\/media\/COngwSdUEAA5Vf0.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COngwSdUEAA5Vf0.jpg","url":"http:\/\/t.co\/Bnmgub3B6X","display_url":"pic.twitter.com\/Bnmgub3B6X","expanded_url":"http:\/\/twitter.com\/eddiecastro55\/status\/642291542221193216\/photo\/1","type":"photo","sizes":{"small":{"w":340,"h":254,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":600,"h":449,"resize":"fit"},"large":{"w":611,"h":458,"resize":"fit"}},"source_status_id":642291542221193216,"source_status_id_str":"642291542221193216","source_user_id":357453015,"source_user_id_str":"357453015"}]},"extended_entities":{"media":[{"id":642291542070136832,"id_str":"642291542070136832","indices":[139,140],"media_url":"http:\/\/pbs.twimg.com\/media\/COngwSdUEAA5Vf0.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COngwSdUEAA5Vf0.jpg","url":"http:\/\/t.co\/Bnmgub3B6X","display_url":"pic.twitter.com\/Bnmgub3B6X","expanded_url":"http:\/\/twitter.com\/eddiecastro55\/status\/642291542221193216\/photo\/1","type":"photo","sizes":{"small":{"w":340,"h":254,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":600,"h":449,"resize":"fit"},"large":{"w":611,"h":458,"resize":"fit"}},"source_status_id":642291542221193216,"source_status_id_str":"642291542221193216","source_user_id":357453015,"source_user_id_str":"357453015"}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 11:54:39 +0000 2015","id":642305248674099200,"id_str":"642305248674099200","text":"RT
+        @joelhillan: Here''s a look at SB I-25 at a near standstill from US 36 because
+        of overnight construction near Speer. #CBS4Mornings http:\/\u2026","source":"\u003ca
+        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":16313592,"id_str":"16313592","name":"CBSDenver","screen_name":"CBSDenver","location":"Denver,
+        Colorado","description":"CBS4 is located in Denver, Colo. at 1044 Lincoln.
+        In Denver, you can watch CBS4 on Channel 4, KCNC-TV.","url":"http:\/\/t.co\/9h87coXQaB","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/9h87coXQaB","expanded_url":"http:\/\/cbsdenver.com","display_url":"cbsdenver.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":82690,"friends_count":15377,"listed_count":2025,"created_at":"Tue
+        Sep 16 17:23:37 +0000 2008","favourites_count":1213,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":85752,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"010332","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000163916450\/PzyO9FaE.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000163916450\/PzyO9FaE.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/553371313864069121\/X-RH3aZz_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/553371313864069121\/X-RH3aZz_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/16313592\/1400287829","profile_link_color":"0000FF","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"BCE3FB","profile_text_color":"000000","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Fri
+        Sep 11 11:51:33 +0000 2015","id":642304469284220928,"id_str":"642304469284220928","text":"Here''s
+        a look at SB I-25 at a near standstill from US 36 because of overnight construction
+        near Speer. #CBS4Mornings http:\/\/t.co\/zeB9GYfbak","source":"\u003ca href=\"http:\/\/www.socialnewsdesk.com\"
+        rel=\"nofollow\"\u003eSocialNewsDesk\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":45298882,"id_str":"45298882","name":"Joel
+        Hillan","screen_name":"joelhillan","location":"Denver, Colorado","description":"Traffic
+        Specialist @cbsdenver\/ News Anchor @850KOA, Denver Native, Avid Broncos Fan","url":"http:\/\/t.co\/wk2E5wtfEG","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/wk2E5wtfEG","expanded_url":"http:\/\/cbsloc.al\/KtkXMb","display_url":"cbsloc.al\/KtkXMb","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":1861,"friends_count":2380,"listed_count":117,"created_at":"Sun
+        Jun 07 06:47:07 +0000 2009","favourites_count":1022,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":9522,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/469865410255278081\/YKlDg8Lw.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/469865410255278081\/YKlDg8Lw.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/564765663365824514\/WO-DSs7I_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/564765663365824514\/WO-DSs7I_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/45298882\/1400859574","profile_link_color":"0084B4","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":1,"entities":{"hashtags":[{"text":"CBS4Mornings","indices":[103,116]}],"symbols":[],"user_mentions":[],"urls":[],"media":[{"id":642304468537573376,"id_str":"642304468537573376","indices":[117,139],"media_url":"http:\/\/pbs.twimg.com\/media\/COnsgtTUAAAd-cS.png","media_url_https":"https:\/\/pbs.twimg.com\/media\/COnsgtTUAAAd-cS.png","url":"http:\/\/t.co\/zeB9GYfbak","display_url":"pic.twitter.com\/zeB9GYfbak","expanded_url":"http:\/\/twitter.com\/joelhillan\/status\/642304469284220928\/photo\/1","type":"photo","sizes":{"medium":{"w":600,"h":337,"resize":"fit"},"large":{"w":1024,"h":576,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":191,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642304468537573376,"id_str":"642304468537573376","indices":[117,139],"media_url":"http:\/\/pbs.twimg.com\/media\/COnsgtTUAAAd-cS.png","media_url_https":"https:\/\/pbs.twimg.com\/media\/COnsgtTUAAAd-cS.png","url":"http:\/\/t.co\/zeB9GYfbak","display_url":"pic.twitter.com\/zeB9GYfbak","expanded_url":"http:\/\/twitter.com\/joelhillan\/status\/642304469284220928\/photo\/1","type":"photo","sizes":{"medium":{"w":600,"h":337,"resize":"fit"},"large":{"w":1024,"h":576,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":191,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"entities":{"hashtags":[{"text":"CBS4Mornings","indices":[119,132]}],"symbols":[],"user_mentions":[{"screen_name":"joelhillan","name":"Joel
+        Hillan","id":45298882,"id_str":"45298882","indices":[3,14]}],"urls":[],"media":[{"id":642304468537573376,"id_str":"642304468537573376","indices":[139,140],"media_url":"http:\/\/pbs.twimg.com\/media\/COnsgtTUAAAd-cS.png","media_url_https":"https:\/\/pbs.twimg.com\/media\/COnsgtTUAAAd-cS.png","url":"http:\/\/t.co\/zeB9GYfbak","display_url":"pic.twitter.com\/zeB9GYfbak","expanded_url":"http:\/\/twitter.com\/joelhillan\/status\/642304469284220928\/photo\/1","type":"photo","sizes":{"medium":{"w":600,"h":337,"resize":"fit"},"large":{"w":1024,"h":576,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":191,"resize":"fit"}},"source_status_id":642304469284220928,"source_status_id_str":"642304469284220928","source_user_id":45298882,"source_user_id_str":"45298882"}]},"extended_entities":{"media":[{"id":642304468537573376,"id_str":"642304468537573376","indices":[139,140],"media_url":"http:\/\/pbs.twimg.com\/media\/COnsgtTUAAAd-cS.png","media_url_https":"https:\/\/pbs.twimg.com\/media\/COnsgtTUAAAd-cS.png","url":"http:\/\/t.co\/zeB9GYfbak","display_url":"pic.twitter.com\/zeB9GYfbak","expanded_url":"http:\/\/twitter.com\/joelhillan\/status\/642304469284220928\/photo\/1","type":"photo","sizes":{"medium":{"w":600,"h":337,"resize":"fit"},"large":{"w":1024,"h":576,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":191,"resize":"fit"}},"source_status_id":642304469284220928,"source_status_id_str":"642304469284220928","source_user_id":45298882,"source_user_id_str":"45298882"}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 11:54:20 +0000 2015","id":642305168160198656,"id_str":"642305168160198656","text":"Police
+        are upping the reward $ for help tracking down person(s) who fired shots at
+        Aurora police this week. #9newsmornings","source":"\u003ca href=\"http:\/\/www.hootsuite.com\"
+        rel=\"nofollow\"\u003eHootsuite\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":19032473,"id_str":"19032473","name":"9NEWS
+        Denver","screen_name":"9NEWS","location":"Denver, Colorado","description":"Headlines:
+        Yes, but use Twitter for much more: #BeOn9, #9WX, chats, etc. We use Twitter
+        to engage with you! We also, RT Team 9NEWS http:\/\/t.co\/sGKKRaZynN.","url":"http:\/\/t.co\/tqpZuE2KEo","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/tqpZuE2KEo","expanded_url":"http:\/\/www.9news.com","display_url":"9news.com","indices":[0,22]}]},"description":{"urls":[{"url":"http:\/\/t.co\/sGKKRaZynN","expanded_url":"http:\/\/on9news.tv\/9team","display_url":"on9news.tv\/9team","indices":[131,153]}]}},"protected":false,"followers_count":174368,"friends_count":18250,"listed_count":2684,"created_at":"Thu
+        Jan 15 18:32:46 +0000 2009","favourites_count":1004,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":true,"statuses_count":213218,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"13078B","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/575654239680114688\/PWqE92oA.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/575654239680114688\/PWqE92oA.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/607907370375585792\/98OHpInF_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/607907370375585792\/98OHpInF_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/19032473\/1426081767","profile_link_color":"821522","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"B3C2DF","profile_text_color":"333333","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":3,"favorite_count":1,"entities":{"hashtags":[{"text":"9newsmornings","indices":[108,122]}],"symbols":[],"user_mentions":[],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 11:54:09 +0000 2015","id":642305121825759232,"id_str":"642305121825759232","text":"Building
+        A Prototype JavaScript Engine for MongoDB: http:\/\/t.co\/CnG5Jutp7U","source":"\u003ca
+        href=\"http:\/\/bufferapp.com\" rel=\"nofollow\"\u003eBuffer\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":459275531,"id_str":"459275531","name":"JavaScript
+        Live","screen_name":"JavaScriptDaily","location":"","description":"Daily JavaScript
+        community news, links and events.","url":"http:\/\/t.co\/yTZ4fsOxGj","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/yTZ4fsOxGj","expanded_url":"http:\/\/jslive.com","display_url":"jslive.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":162855,"friends_count":36,"listed_count":3982,"created_at":"Mon
+        Jan 09 13:43:05 +0000 2012","favourites_count":2,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":4483,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"51CBBF","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/558331836\/jsbg.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/558331836\/jsbg.png","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/612958776312905729\/1D6mR9eF_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/612958776312905729\/1D6mR9eF_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/459275531\/1433778003","profile_link_color":"177A6E","profile_sidebar_border_color":"F0EDDA","profile_sidebar_fill_color":"FDFFF0","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":2,"favorite_count":4,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/CnG5Jutp7U","expanded_url":"http:\/\/thecalvinchan.com\/blog\/2015\/09\/05\/faster-than-v8\/","display_url":"thecalvinchan.com\/blog\/2015\/09\/0\u2026","indices":[52,74]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"}]'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 11:58:19 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json?skip_status=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="mTLyBXknuHQWtGBa4QBXFdGkn", oauth_nonce="fa87f965d0a5ce9d299f2c033cf72a58",
+        oauth_signature="CjV5OCfaPztxyDBV4BVhBjoudJ8%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1441972699", oauth_token="21419451-NdGFFUNbmmhujkkANewroA21K2roEweJOSMIul0sN",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '763'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 11 Sep 2015 11:58:17 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 11 Sep 2015 11:58:17 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A144197269766355095; Domain=.twitter.com; Path=/; Expires=Sun,
+        10-Sep-2017 11:58:17 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - d78e0f8bddcbadca7938918c05990819
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '8'
+      X-Rate-Limit-Reset:
+      - '1441973259'
+      X-Response-Time:
+      - '21'
+      X-Transaction:
+      - d852da22db0dce75
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":21419451,"id_str":"21419451","name":"Samson Brock","screen_name":"imwithsam","location":"Denver,
+        CO","description":"Turing School of Software & Design student. @turingschool
+        10+ years of software engineering, web development, and IT consulting experience.","url":"http:\/\/t.co\/L9MK6DSqaj","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/L9MK6DSqaj","expanded_url":"http:\/\/badmotivator.io\/","display_url":"badmotivator.io","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":112,"friends_count":492,"listed_count":4,"created_at":"Fri
+        Feb 20 18:23:20 +0000 2009","favourites_count":105,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":103,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"BADFCD","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/21419451\/1433692998","profile_link_color":"FF0000","profile_sidebar_border_color":"F2E195","profile_sidebar_fill_color":"FFF7CC","profile_text_color":"0C3E53","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 11:58:19 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json?skip_status=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="mTLyBXknuHQWtGBa4QBXFdGkn", oauth_nonce="54278a72edd5a0358c548df7a2611532",
+        oauth_signature="dHS9Xm%2Fkg4tFpXTRaJ4yQxNgcYc%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1441972699", oauth_token="21419451-NdGFFUNbmmhujkkANewroA21K2roEweJOSMIul0sN",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '763'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 11 Sep 2015 11:58:18 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 11 Sep 2015 11:58:18 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A144197269809029215; Domain=.twitter.com; Path=/; Expires=Sun,
+        10-Sep-2017 11:58:18 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - c4188d40daed96bfc6664c40319f210d
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '7'
+      X-Rate-Limit-Reset:
+      - '1441973259'
+      X-Response-Time:
+      - '20'
+      X-Transaction:
+      - a64a1fb2b94526c3
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":21419451,"id_str":"21419451","name":"Samson Brock","screen_name":"imwithsam","location":"Denver,
+        CO","description":"Turing School of Software & Design student. @turingschool
+        10+ years of software engineering, web development, and IT consulting experience.","url":"http:\/\/t.co\/L9MK6DSqaj","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/L9MK6DSqaj","expanded_url":"http:\/\/badmotivator.io\/","display_url":"badmotivator.io","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":112,"friends_count":492,"listed_count":4,"created_at":"Fri
+        Feb 20 18:23:20 +0000 2009","favourites_count":105,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":103,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"BADFCD","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/21419451\/1433692998","profile_link_color":"FF0000","profile_sidebar_border_color":"F2E195","profile_sidebar_fill_color":"FFF7CC","profile_text_color":"0C3E53","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 11:58:20 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json?skip_status=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="mTLyBXknuHQWtGBa4QBXFdGkn", oauth_nonce="88c314c53b053da23e7877a7d05388d5",
+        oauth_signature="SYER2eU6LLqhwuzhFSxGRChqH0E%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1441972700", oauth_token="21419451-NdGFFUNbmmhujkkANewroA21K2roEweJOSMIul0sN",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '763'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 11 Sep 2015 11:58:18 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 11 Sep 2015 11:58:18 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A144197269852386429; Domain=.twitter.com; Path=/; Expires=Sun,
+        10-Sep-2017 11:58:18 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 7ef94d227fa7910a7324b26ec89d0697
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '6'
+      X-Rate-Limit-Reset:
+      - '1441973259'
+      X-Response-Time:
+      - '18'
+      X-Transaction:
+      - 4acf86009707274f
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":21419451,"id_str":"21419451","name":"Samson Brock","screen_name":"imwithsam","location":"Denver,
+        CO","description":"Turing School of Software & Design student. @turingschool
+        10+ years of software engineering, web development, and IT consulting experience.","url":"http:\/\/t.co\/L9MK6DSqaj","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/L9MK6DSqaj","expanded_url":"http:\/\/badmotivator.io\/","display_url":"badmotivator.io","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":112,"friends_count":492,"listed_count":4,"created_at":"Fri
+        Feb 20 18:23:20 +0000 2009","favourites_count":105,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":103,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"BADFCD","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/21419451\/1433692998","profile_link_color":"FF0000","profile_sidebar_border_color":"F2E195","profile_sidebar_fill_color":"FFF7CC","profile_text_color":"0C3E53","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 11:58:20 GMT
+- request:
+    method: post
+    uri: https://api.twitter.com/1.1/favorites/create.json
+    body:
+      encoding: UTF-8
+      string: id=642305950129475584
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="mTLyBXknuHQWtGBa4QBXFdGkn", oauth_nonce="805012d59e6210475de5aca81282e9a8",
+        oauth_signature="ALVmlvRtjaJz9zqLOq3V5%2BOHvmM%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1441972700", oauth_token="21419451-NdGFFUNbmmhujkkANewroA21K2roEweJOSMIul0sN",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '1132'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 11 Sep 2015 11:58:19 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 11 Sep 2015 11:58:19 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A144197269909452608; Domain=.twitter.com; Path=/; Expires=Sun,
+        10-Sep-2017 11:58:19 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 7af0d556560d1dc15d7d4d33cd4f0d57
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Time:
+      - '80'
+      X-Transaction:
+      - f39ec3ce38f94650
+      X-Tsa-Request-Body-Time:
+      - '0'
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"created_at":"Fri Sep 11 11:57:26 +0000 2015","id":642305950129475584,"id_str":"642305950129475584","text":"USDA
+        study found kids who ate breakfast did better on math tests than those who
+        skipped the meal. Here\u2019s what to eat:\nhttp:\/\/t.co\/fuPagpTE9F","source":"\u003ca
+        href=\"https:\/\/about.twitter.com\/products\/tweetdeck\" rel=\"nofollow\"\u003eTweetDeck\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":12133382,"id_str":"12133382","name":"PBS","screen_name":"PBS","location":"Arlington,
+        VA","description":"PBS invites you to discover new ideas and explore new worlds.
+        Join us here for conversation and sharing.","url":"http:\/\/t.co\/njsUdPits1","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/njsUdPits1","expanded_url":"http:\/\/pbs.org\/","display_url":"pbs.org","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":2184737,"friends_count":166115,"listed_count":17050,"created_at":"Fri
+        Jan 11 22:05:56 +0000 2008","favourites_count":1957,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":true,"verified":true,"statuses_count":47169,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"FFFFFF","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/459415767801274368\/YjerTXwZ.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/459415767801274368\/YjerTXwZ.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/536909907669184512\/t3o0BV4L_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/536909907669184512\/t3o0BV4L_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/12133382\/1441294388","profile_link_color":"081929","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"E5FCFF","profile_text_color":"170400","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":3,"favorite_count":2,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/fuPagpTE9F","expanded_url":"http:\/\/to.pbs.org\/1i3ecoU","display_url":"to.pbs.org\/1i3ecoU","indices":[118,140]}]},"favorited":true,"retweeted":false,"possibly_sensitive":false,"lang":"en"}'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 11:58:21 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/statuses/home_timeline.json?count=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="mTLyBXknuHQWtGBa4QBXFdGkn", oauth_nonce="d67dfe6d20aef6a8668ba71bb74422eb",
+        oauth_signature="LN09hVNWxDp9u%2BA4SXBKI2sN41I%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1441972701", oauth_token="21419451-NdGFFUNbmmhujkkANewroA21K2roEweJOSMIul0sN",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '5724'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 11 Sep 2015 11:58:19 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 11 Sep 2015 11:58:19 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A144197269965112543; Domain=.twitter.com; Path=/; Expires=Sun,
+        10-Sep-2017 11:58:19 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - c7a52c23e1a6d04eafd01a540065f02c
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '11'
+      X-Rate-Limit-Reset:
+      - '1441973259'
+      X-Response-Time:
+      - '53'
+      X-Transaction:
+      - 3c3068ae6e432550
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"created_at":"Fri Sep 11 11:57:26 +0000 2015","id":642305950129475584,"id_str":"642305950129475584","text":"USDA
+        study found kids who ate breakfast did better on math tests than those who
+        skipped the meal. Here\u2019s what to eat:\nhttp:\/\/t.co\/fuPagpTE9F","source":"\u003ca
+        href=\"https:\/\/about.twitter.com\/products\/tweetdeck\" rel=\"nofollow\"\u003eTweetDeck\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":12133382,"id_str":"12133382","name":"PBS","screen_name":"PBS","location":"Arlington,
+        VA","description":"PBS invites you to discover new ideas and explore new worlds.
+        Join us here for conversation and sharing.","url":"http:\/\/t.co\/njsUdPits1","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/njsUdPits1","expanded_url":"http:\/\/pbs.org\/","display_url":"pbs.org","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":2184737,"friends_count":166115,"listed_count":17050,"created_at":"Fri
+        Jan 11 22:05:56 +0000 2008","favourites_count":1957,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":true,"verified":true,"statuses_count":47169,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"FFFFFF","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/459415767801274368\/YjerTXwZ.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/459415767801274368\/YjerTXwZ.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/536909907669184512\/t3o0BV4L_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/536909907669184512\/t3o0BV4L_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/12133382\/1441294388","profile_link_color":"081929","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"E5FCFF","profile_text_color":"170400","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":3,"favorite_count":2,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/fuPagpTE9F","expanded_url":"http:\/\/to.pbs.org\/1i3ecoU","display_url":"to.pbs.org\/1i3ecoU","indices":[118,140]}]},"favorited":true,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 11:56:41 +0000 2015","id":642305762111258624,"id_str":"642305762111258624","text":"Broad
+        Daylight Shooting Possibly Gang-Related, Teen Hit Multiple Times (VIDEO)\n
+        http:\/\/t.co\/vVD6n34uGV","source":"\u003ca href=\"http:\/\/twitter.com\"
+        rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":17451031,"id_str":"17451031","name":"DenverWestword","screen_name":"DenverWestword","location":"Denver,
+        CO","description":"News and frivolity from Denver''s alt-weekly.","url":"http:\/\/t.co\/dwu9OsfV62","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/dwu9OsfV62","expanded_url":"http:\/\/www.westword.com","display_url":"westword.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":79251,"friends_count":3845,"listed_count":1591,"created_at":"Mon
+        Nov 17 21:23:42 +0000 2008","favourites_count":1240,"utc_offset":-25200,"time_zone":"Pacific
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":27787,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"9AE4E8","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/790842741\/dc4297a7d25a37f6af1853f4847f5627.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/790842741\/dc4297a7d25a37f6af1853f4847f5627.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/436592323758006273\/m-iK-XeP_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/436592323758006273\/m-iK-XeP_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/17451031\/1398463995","profile_link_color":"0084B4","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDFFCC","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/vVD6n34uGV","expanded_url":"http:\/\/www.westword.com\/news\/broad-daylight-shooting-possibly-gang-related-teen-hit-multiple-times-7132345","display_url":"westword.com\/news\/broad-day\u2026","indices":[80,102]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 11:56:37 +0000 2015","id":642305742343684097,"id_str":"642305742343684097","text":"The
+        real game changer: Apple finally ships middle-finger emoji https:\/\/t.co\/AAtRQtgOcJ
+        by @obrien http:\/\/t.co\/PkkfeWW3NA","source":"\u003ca href=\"http:\/\/venturebeat.com\"
+        rel=\"nofollow\"\u003eVentureBeat\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":60642052,"id_str":"60642052","name":"VentureBeat","screen_name":"VentureBeat","location":"San
+        Francisco + NYC","description":"We bring you news on what matters in the tech
+        business world.","url":"http:\/\/t.co\/vNmL0zJnXy","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/vNmL0zJnXy","expanded_url":"http:\/\/www.venturebeat.com","display_url":"venturebeat.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":549592,"friends_count":1482,"listed_count":16439,"created_at":"Mon
+        Jul 27 16:34:47 +0000 2009","favourites_count":621,"utc_offset":-25200,"time_zone":"Pacific
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":65553,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F1F1F1","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/421572594\/VB_Twitter_BG02.jpg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/421572594\/VB_Twitter_BG02.jpg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/615577992815882240\/Iap3Di46_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/615577992815882240\/Iap3Di46_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/60642052\/1440020242","profile_link_color":"E31C29","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"F1F1F1","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":3,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"obrien","name":"Chris
+        O''Brien","id":10952962,"id_str":"10952962","indices":[90,97]}],"urls":[{"url":"https:\/\/t.co\/AAtRQtgOcJ","expanded_url":"https:\/\/wp.me\/p5hvhT-7yIz","display_url":"wp.me\/p5hvhT-7yIz","indices":[63,86]}],"media":[{"id":642305741395750912,"id_str":"642305741395750912","indices":[98,120],"media_url":"http:\/\/pbs.twimg.com\/media\/COntqzEWcAAcdvY.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COntqzEWcAAcdvY.jpg","url":"http:\/\/t.co\/PkkfeWW3NA","display_url":"pic.twitter.com\/PkkfeWW3NA","expanded_url":"http:\/\/twitter.com\/VentureBeat\/status\/642305742343684097\/photo\/1","type":"photo","sizes":{"large":{"w":780,"h":417,"resize":"fit"},"medium":{"w":600,"h":320,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":181,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642305741395750912,"id_str":"642305741395750912","indices":[98,120],"media_url":"http:\/\/pbs.twimg.com\/media\/COntqzEWcAAcdvY.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COntqzEWcAAcdvY.jpg","url":"http:\/\/t.co\/PkkfeWW3NA","display_url":"pic.twitter.com\/PkkfeWW3NA","expanded_url":"http:\/\/twitter.com\/VentureBeat\/status\/642305742343684097\/photo\/1","type":"photo","sizes":{"large":{"w":780,"h":417,"resize":"fit"},"medium":{"w":600,"h":320,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":181,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 11:56:36 +0000 2015","id":642305738002558976,"id_str":"642305738002558976","text":"#WeAreBroncos
+        Who''s excited!!?? Kickoff is at 2:25pm Sunday. #9newsmornings http:\/\/t.co\/Yj33kOeVzE","source":"\u003ca
+        href=\"http:\/\/www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":19032473,"id_str":"19032473","name":"9NEWS
+        Denver","screen_name":"9NEWS","location":"Denver, Colorado","description":"Headlines:
+        Yes, but use Twitter for much more: #BeOn9, #9WX, chats, etc. We use Twitter
+        to engage with you! We also, RT Team 9NEWS http:\/\/t.co\/sGKKRaZynN.","url":"http:\/\/t.co\/tqpZuE2KEo","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/tqpZuE2KEo","expanded_url":"http:\/\/www.9news.com","display_url":"9news.com","indices":[0,22]}]},"description":{"urls":[{"url":"http:\/\/t.co\/sGKKRaZynN","expanded_url":"http:\/\/on9news.tv\/9team","display_url":"on9news.tv\/9team","indices":[131,153]}]}},"protected":false,"followers_count":174368,"friends_count":18250,"listed_count":2684,"created_at":"Thu
+        Jan 15 18:32:46 +0000 2009","favourites_count":1004,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":true,"statuses_count":213218,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"13078B","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/575654239680114688\/PWqE92oA.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/575654239680114688\/PWqE92oA.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/607907370375585792\/98OHpInF_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/607907370375585792\/98OHpInF_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/19032473\/1426081767","profile_link_color":"821522","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"B3C2DF","profile_text_color":"333333","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":2,"entities":{"hashtags":[{"text":"WeAreBroncos","indices":[0,13]},{"text":"9newsmornings","indices":[61,75]}],"symbols":[],"user_mentions":[],"urls":[],"media":[{"id":642305737784467456,"id_str":"642305737784467456","indices":[76,98],"media_url":"http:\/\/pbs.twimg.com\/media\/COntqlnWoAAZxDX.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COntqlnWoAAZxDX.jpg","url":"http:\/\/t.co\/Yj33kOeVzE","display_url":"pic.twitter.com\/Yj33kOeVzE","expanded_url":"http:\/\/twitter.com\/9NEWS\/status\/642305738002558976\/photo\/1","type":"photo","sizes":{"medium":{"w":405,"h":220,"resize":"fit"},"large":{"w":405,"h":220,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":184,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642305737784467456,"id_str":"642305737784467456","indices":[76,98],"media_url":"http:\/\/pbs.twimg.com\/media\/COntqlnWoAAZxDX.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COntqlnWoAAZxDX.jpg","url":"http:\/\/t.co\/Yj33kOeVzE","display_url":"pic.twitter.com\/Yj33kOeVzE","expanded_url":"http:\/\/twitter.com\/9NEWS\/status\/642305738002558976\/photo\/1","type":"photo","sizes":{"medium":{"w":405,"h":220,"resize":"fit"},"large":{"w":405,"h":220,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":184,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 11:56:22 +0000 2015","id":642305680947474432,"id_str":"642305680947474432","text":"WeChat
+        introduces Evernote-style clip functionality in latest iOS update https:\/\/t.co\/oLqTgvJchF
+        by @michaeldwm http:\/\/t.co\/nQGIhnT53D","source":"\u003ca href=\"http:\/\/venturebeat.com\"
+        rel=\"nofollow\"\u003eVentureBeat\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":60642052,"id_str":"60642052","name":"VentureBeat","screen_name":"VentureBeat","location":"San
+        Francisco + NYC","description":"We bring you news on what matters in the tech
+        business world.","url":"http:\/\/t.co\/vNmL0zJnXy","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/vNmL0zJnXy","expanded_url":"http:\/\/www.venturebeat.com","display_url":"venturebeat.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":549592,"friends_count":1482,"listed_count":16439,"created_at":"Mon
+        Jul 27 16:34:47 +0000 2009","favourites_count":621,"utc_offset":-25200,"time_zone":"Pacific
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":65553,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F1F1F1","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/421572594\/VB_Twitter_BG02.jpg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/421572594\/VB_Twitter_BG02.jpg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/615577992815882240\/Iap3Di46_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/615577992815882240\/Iap3Di46_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/60642052\/1440020242","profile_link_color":"E31C29","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"F1F1F1","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":1,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"michaeldwm","name":"Michael
+        de Waal-Mont","id":81422326,"id_str":"81422326","indices":[100,111]}],"urls":[{"url":"https:\/\/t.co\/oLqTgvJchF","expanded_url":"https:\/\/wp.me\/p5hvhT-7yHS","display_url":"wp.me\/p5hvhT-7yHS","indices":[73,96]}],"media":[{"id":642305680758673408,"id_str":"642305680758673408","indices":[112,134],"media_url":"http:\/\/pbs.twimg.com\/media\/COntnRLWEAAyToL.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COntnRLWEAAyToL.jpg","url":"http:\/\/t.co\/nQGIhnT53D","display_url":"pic.twitter.com\/nQGIhnT53D","expanded_url":"http:\/\/twitter.com\/VentureBeat\/status\/642305680947474432\/photo\/1","type":"photo","sizes":{"medium":{"w":600,"h":315,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":780,"h":410,"resize":"fit"},"small":{"w":340,"h":178,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642305680758673408,"id_str":"642305680758673408","indices":[112,134],"media_url":"http:\/\/pbs.twimg.com\/media\/COntnRLWEAAyToL.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COntnRLWEAAyToL.jpg","url":"http:\/\/t.co\/nQGIhnT53D","display_url":"pic.twitter.com\/nQGIhnT53D","expanded_url":"http:\/\/twitter.com\/VentureBeat\/status\/642305680947474432\/photo\/1","type":"photo","sizes":{"medium":{"w":600,"h":315,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":780,"h":410,"resize":"fit"},"small":{"w":340,"h":178,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 11:54:58 +0000 2015","id":642305326830759937,"id_str":"642305326830759937","text":"RT
+        @CBS4Lauren: Talking w\/ firefighters live about how 9\/11 stair climbs have
+        grown &amp; help families. Watch http:\/\/t.co\/0PCCTIpI2e #CBS4Morn\u2026","source":"\u003ca
+        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":16313592,"id_str":"16313592","name":"CBSDenver","screen_name":"CBSDenver","location":"Denver,
+        Colorado","description":"CBS4 is located in Denver, Colo. at 1044 Lincoln.
+        In Denver, you can watch CBS4 on Channel 4, KCNC-TV.","url":"http:\/\/t.co\/9h87coXQaB","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/9h87coXQaB","expanded_url":"http:\/\/cbsdenver.com","display_url":"cbsdenver.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":82690,"friends_count":15377,"listed_count":2025,"created_at":"Tue
+        Sep 16 17:23:37 +0000 2008","favourites_count":1213,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":85752,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"010332","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000163916450\/PzyO9FaE.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000163916450\/PzyO9FaE.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/553371313864069121\/X-RH3aZz_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/553371313864069121\/X-RH3aZz_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/16313592\/1400287829","profile_link_color":"0000FF","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"BCE3FB","profile_text_color":"000000","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Fri
+        Sep 11 11:53:44 +0000 2015","id":642305016347295746,"id_str":"642305016347295746","text":"Talking
+        w\/ firefighters live about how 9\/11 stair climbs have grown &amp; help families.
+        Watch http:\/\/t.co\/0PCCTIpI2e #CBS4Mornings @CBSDenver","source":"\u003ca
+        href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
+        for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2279716418,"id_str":"2279716418","name":"Lauren
+        DiSpirito","screen_name":"CBS4Lauren","location":"Fort Collins, CO","description":"@CBSDenver
+        Northern Newsroom Reporter. NJ native. Lover of nonfiction. Skier. Villanova
+        Wildcat. Philly sports fan. Tweet\/send news tips to lrdispirito@cbs.com","url":"http:\/\/t.co\/wEe0dniNMA","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/wEe0dniNMA","expanded_url":"http:\/\/cbsdenver.com","display_url":"cbsdenver.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":919,"friends_count":1030,"listed_count":44,"created_at":"Mon
+        Jan 06 23:23:34 +0000 2014","favourites_count":415,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":1399,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000164341980\/AeL-4zeo.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000164341980\/AeL-4zeo.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/525025880549388288\/qQ4CA-qN_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/525025880549388288\/qQ4CA-qN_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2279716418\/1440542667","profile_link_color":"0084B4","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":0,"entities":{"hashtags":[{"text":"CBS4Mornings","indices":[118,131]}],"symbols":[],"user_mentions":[{"screen_name":"CBSDenver","name":"CBSDenver","id":16313592,"id_str":"16313592","indices":[132,142]}],"urls":[{"url":"http:\/\/t.co\/0PCCTIpI2e","expanded_url":"http:\/\/cbsdenver.com\/show\/live-video\/","display_url":"cbsdenver.com\/show\/live-vide\u2026","indices":[95,117]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"entities":{"hashtags":[{"text":"CBS4Mornings","indices":[134,144]}],"symbols":[],"user_mentions":[{"screen_name":"CBS4Lauren","name":"Lauren
+        DiSpirito","id":2279716418,"id_str":"2279716418","indices":[3,14]},{"screen_name":"CBSDenver","name":"CBSDenver","id":16313592,"id_str":"16313592","indices":[143,144]}],"urls":[{"url":"http:\/\/t.co\/0PCCTIpI2e","expanded_url":"http:\/\/cbsdenver.com\/show\/live-video\/","display_url":"cbsdenver.com\/show\/live-vide\u2026","indices":[111,133]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 11:54:53 +0000 2015","id":642305308023488512,"id_str":"642305308023488512","text":"RT
+        @CBS4Lauren: RedRocks stair climb for 343 fire fighters who died 9\/11. Details:
+        http:\/\/t.co\/OyGAtSugaN #neverforget #CBS4Mornings http:\/\u2026","source":"\u003ca
+        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":16313592,"id_str":"16313592","name":"CBSDenver","screen_name":"CBSDenver","location":"Denver,
+        Colorado","description":"CBS4 is located in Denver, Colo. at 1044 Lincoln.
+        In Denver, you can watch CBS4 on Channel 4, KCNC-TV.","url":"http:\/\/t.co\/9h87coXQaB","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/9h87coXQaB","expanded_url":"http:\/\/cbsdenver.com","display_url":"cbsdenver.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":82690,"friends_count":15377,"listed_count":2025,"created_at":"Tue
+        Sep 16 17:23:37 +0000 2008","favourites_count":1213,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":85752,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"010332","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000163916450\/PzyO9FaE.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000163916450\/PzyO9FaE.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/553371313864069121\/X-RH3aZz_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/553371313864069121\/X-RH3aZz_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/16313592\/1400287829","profile_link_color":"0000FF","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"BCE3FB","profile_text_color":"000000","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Fri
+        Sep 11 11:18:56 +0000 2015","id":642296260054020096,"id_str":"642296260054020096","text":"RedRocks
+        stair climb for 343 fire fighters who died 9\/11. Details: http:\/\/t.co\/OyGAtSugaN
+        #neverforget #CBS4Mornings http:\/\/t.co\/Bnmgub3B6X\u201d","source":"\u003ca
+        href=\"http:\/\/twitter.com\/#!\/download\/ipad\" rel=\"nofollow\"\u003eTwitter
+        for iPad\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2279716418,"id_str":"2279716418","name":"Lauren
+        DiSpirito","screen_name":"CBS4Lauren","location":"Fort Collins, CO","description":"@CBSDenver
+        Northern Newsroom Reporter. NJ native. Lover of nonfiction. Skier. Villanova
+        Wildcat. Philly sports fan. Tweet\/send news tips to lrdispirito@cbs.com","url":"http:\/\/t.co\/wEe0dniNMA","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/wEe0dniNMA","expanded_url":"http:\/\/cbsdenver.com","display_url":"cbsdenver.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":919,"friends_count":1030,"listed_count":44,"created_at":"Mon
+        Jan 06 23:23:34 +0000 2014","favourites_count":415,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":1399,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000164341980\/AeL-4zeo.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000164341980\/AeL-4zeo.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/525025880549388288\/qQ4CA-qN_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/525025880549388288\/qQ4CA-qN_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2279716418\/1440542667","profile_link_color":"0084B4","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":0,"entities":{"hashtags":[{"text":"neverforget","indices":[90,102]},{"text":"CBS4Mornings","indices":[103,116]}],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/OyGAtSugaN","expanded_url":"http:\/\/cbsloc.al\/1CrwNQc","display_url":"cbsloc.al\/1CrwNQc","indices":[67,89]}],"media":[{"id":642291542070136832,"id_str":"642291542070136832","indices":[117,139],"media_url":"http:\/\/pbs.twimg.com\/media\/COngwSdUEAA5Vf0.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COngwSdUEAA5Vf0.jpg","url":"http:\/\/t.co\/Bnmgub3B6X","display_url":"pic.twitter.com\/Bnmgub3B6X","expanded_url":"http:\/\/twitter.com\/eddiecastro55\/status\/642291542221193216\/photo\/1","type":"photo","sizes":{"small":{"w":340,"h":254,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":600,"h":449,"resize":"fit"},"large":{"w":611,"h":458,"resize":"fit"}},"source_status_id":642291542221193216,"source_status_id_str":"642291542221193216","source_user_id":357453015,"source_user_id_str":"357453015"}]},"extended_entities":{"media":[{"id":642291542070136832,"id_str":"642291542070136832","indices":[117,139],"media_url":"http:\/\/pbs.twimg.com\/media\/COngwSdUEAA5Vf0.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COngwSdUEAA5Vf0.jpg","url":"http:\/\/t.co\/Bnmgub3B6X","display_url":"pic.twitter.com\/Bnmgub3B6X","expanded_url":"http:\/\/twitter.com\/eddiecastro55\/status\/642291542221193216\/photo\/1","type":"photo","sizes":{"small":{"w":340,"h":254,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":600,"h":449,"resize":"fit"},"large":{"w":611,"h":458,"resize":"fit"}},"source_status_id":642291542221193216,"source_status_id_str":"642291542221193216","source_user_id":357453015,"source_user_id_str":"357453015"}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"entities":{"hashtags":[{"text":"neverforget","indices":[106,118]},{"text":"CBS4Mornings","indices":[119,132]}],"symbols":[],"user_mentions":[{"screen_name":"CBS4Lauren","name":"Lauren
+        DiSpirito","id":2279716418,"id_str":"2279716418","indices":[3,14]}],"urls":[{"url":"http:\/\/t.co\/OyGAtSugaN","expanded_url":"http:\/\/cbsloc.al\/1CrwNQc","display_url":"cbsloc.al\/1CrwNQc","indices":[83,105]}],"media":[{"id":642291542070136832,"id_str":"642291542070136832","indices":[139,140],"media_url":"http:\/\/pbs.twimg.com\/media\/COngwSdUEAA5Vf0.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COngwSdUEAA5Vf0.jpg","url":"http:\/\/t.co\/Bnmgub3B6X","display_url":"pic.twitter.com\/Bnmgub3B6X","expanded_url":"http:\/\/twitter.com\/eddiecastro55\/status\/642291542221193216\/photo\/1","type":"photo","sizes":{"small":{"w":340,"h":254,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":600,"h":449,"resize":"fit"},"large":{"w":611,"h":458,"resize":"fit"}},"source_status_id":642291542221193216,"source_status_id_str":"642291542221193216","source_user_id":357453015,"source_user_id_str":"357453015"}]},"extended_entities":{"media":[{"id":642291542070136832,"id_str":"642291542070136832","indices":[139,140],"media_url":"http:\/\/pbs.twimg.com\/media\/COngwSdUEAA5Vf0.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COngwSdUEAA5Vf0.jpg","url":"http:\/\/t.co\/Bnmgub3B6X","display_url":"pic.twitter.com\/Bnmgub3B6X","expanded_url":"http:\/\/twitter.com\/eddiecastro55\/status\/642291542221193216\/photo\/1","type":"photo","sizes":{"small":{"w":340,"h":254,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":600,"h":449,"resize":"fit"},"large":{"w":611,"h":458,"resize":"fit"}},"source_status_id":642291542221193216,"source_status_id_str":"642291542221193216","source_user_id":357453015,"source_user_id_str":"357453015"}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 11:54:39 +0000 2015","id":642305248674099200,"id_str":"642305248674099200","text":"RT
+        @joelhillan: Here''s a look at SB I-25 at a near standstill from US 36 because
+        of overnight construction near Speer. #CBS4Mornings http:\/\u2026","source":"\u003ca
+        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":16313592,"id_str":"16313592","name":"CBSDenver","screen_name":"CBSDenver","location":"Denver,
+        Colorado","description":"CBS4 is located in Denver, Colo. at 1044 Lincoln.
+        In Denver, you can watch CBS4 on Channel 4, KCNC-TV.","url":"http:\/\/t.co\/9h87coXQaB","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/9h87coXQaB","expanded_url":"http:\/\/cbsdenver.com","display_url":"cbsdenver.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":82690,"friends_count":15377,"listed_count":2025,"created_at":"Tue
+        Sep 16 17:23:37 +0000 2008","favourites_count":1213,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":85752,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"010332","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000163916450\/PzyO9FaE.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000163916450\/PzyO9FaE.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/553371313864069121\/X-RH3aZz_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/553371313864069121\/X-RH3aZz_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/16313592\/1400287829","profile_link_color":"0000FF","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"BCE3FB","profile_text_color":"000000","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Fri
+        Sep 11 11:51:33 +0000 2015","id":642304469284220928,"id_str":"642304469284220928","text":"Here''s
+        a look at SB I-25 at a near standstill from US 36 because of overnight construction
+        near Speer. #CBS4Mornings http:\/\/t.co\/zeB9GYfbak","source":"\u003ca href=\"http:\/\/www.socialnewsdesk.com\"
+        rel=\"nofollow\"\u003eSocialNewsDesk\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":45298882,"id_str":"45298882","name":"Joel
+        Hillan","screen_name":"joelhillan","location":"Denver, Colorado","description":"Traffic
+        Specialist @cbsdenver\/ News Anchor @850KOA, Denver Native, Avid Broncos Fan","url":"http:\/\/t.co\/wk2E5wtfEG","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/wk2E5wtfEG","expanded_url":"http:\/\/cbsloc.al\/KtkXMb","display_url":"cbsloc.al\/KtkXMb","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":1861,"friends_count":2380,"listed_count":117,"created_at":"Sun
+        Jun 07 06:47:07 +0000 2009","favourites_count":1022,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":9522,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/469865410255278081\/YKlDg8Lw.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/469865410255278081\/YKlDg8Lw.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/564765663365824514\/WO-DSs7I_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/564765663365824514\/WO-DSs7I_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/45298882\/1400859574","profile_link_color":"0084B4","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":1,"entities":{"hashtags":[{"text":"CBS4Mornings","indices":[103,116]}],"symbols":[],"user_mentions":[],"urls":[],"media":[{"id":642304468537573376,"id_str":"642304468537573376","indices":[117,139],"media_url":"http:\/\/pbs.twimg.com\/media\/COnsgtTUAAAd-cS.png","media_url_https":"https:\/\/pbs.twimg.com\/media\/COnsgtTUAAAd-cS.png","url":"http:\/\/t.co\/zeB9GYfbak","display_url":"pic.twitter.com\/zeB9GYfbak","expanded_url":"http:\/\/twitter.com\/joelhillan\/status\/642304469284220928\/photo\/1","type":"photo","sizes":{"medium":{"w":600,"h":337,"resize":"fit"},"large":{"w":1024,"h":576,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":191,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642304468537573376,"id_str":"642304468537573376","indices":[117,139],"media_url":"http:\/\/pbs.twimg.com\/media\/COnsgtTUAAAd-cS.png","media_url_https":"https:\/\/pbs.twimg.com\/media\/COnsgtTUAAAd-cS.png","url":"http:\/\/t.co\/zeB9GYfbak","display_url":"pic.twitter.com\/zeB9GYfbak","expanded_url":"http:\/\/twitter.com\/joelhillan\/status\/642304469284220928\/photo\/1","type":"photo","sizes":{"medium":{"w":600,"h":337,"resize":"fit"},"large":{"w":1024,"h":576,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":191,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"entities":{"hashtags":[{"text":"CBS4Mornings","indices":[119,132]}],"symbols":[],"user_mentions":[{"screen_name":"joelhillan","name":"Joel
+        Hillan","id":45298882,"id_str":"45298882","indices":[3,14]}],"urls":[],"media":[{"id":642304468537573376,"id_str":"642304468537573376","indices":[139,140],"media_url":"http:\/\/pbs.twimg.com\/media\/COnsgtTUAAAd-cS.png","media_url_https":"https:\/\/pbs.twimg.com\/media\/COnsgtTUAAAd-cS.png","url":"http:\/\/t.co\/zeB9GYfbak","display_url":"pic.twitter.com\/zeB9GYfbak","expanded_url":"http:\/\/twitter.com\/joelhillan\/status\/642304469284220928\/photo\/1","type":"photo","sizes":{"medium":{"w":600,"h":337,"resize":"fit"},"large":{"w":1024,"h":576,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":191,"resize":"fit"}},"source_status_id":642304469284220928,"source_status_id_str":"642304469284220928","source_user_id":45298882,"source_user_id_str":"45298882"}]},"extended_entities":{"media":[{"id":642304468537573376,"id_str":"642304468537573376","indices":[139,140],"media_url":"http:\/\/pbs.twimg.com\/media\/COnsgtTUAAAd-cS.png","media_url_https":"https:\/\/pbs.twimg.com\/media\/COnsgtTUAAAd-cS.png","url":"http:\/\/t.co\/zeB9GYfbak","display_url":"pic.twitter.com\/zeB9GYfbak","expanded_url":"http:\/\/twitter.com\/joelhillan\/status\/642304469284220928\/photo\/1","type":"photo","sizes":{"medium":{"w":600,"h":337,"resize":"fit"},"large":{"w":1024,"h":576,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":191,"resize":"fit"}},"source_status_id":642304469284220928,"source_status_id_str":"642304469284220928","source_user_id":45298882,"source_user_id_str":"45298882"}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 11:54:20 +0000 2015","id":642305168160198656,"id_str":"642305168160198656","text":"Police
+        are upping the reward $ for help tracking down person(s) who fired shots at
+        Aurora police this week. #9newsmornings","source":"\u003ca href=\"http:\/\/www.hootsuite.com\"
+        rel=\"nofollow\"\u003eHootsuite\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":19032473,"id_str":"19032473","name":"9NEWS
+        Denver","screen_name":"9NEWS","location":"Denver, Colorado","description":"Headlines:
+        Yes, but use Twitter for much more: #BeOn9, #9WX, chats, etc. We use Twitter
+        to engage with you! We also, RT Team 9NEWS http:\/\/t.co\/sGKKRaZynN.","url":"http:\/\/t.co\/tqpZuE2KEo","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/tqpZuE2KEo","expanded_url":"http:\/\/www.9news.com","display_url":"9news.com","indices":[0,22]}]},"description":{"urls":[{"url":"http:\/\/t.co\/sGKKRaZynN","expanded_url":"http:\/\/on9news.tv\/9team","display_url":"on9news.tv\/9team","indices":[131,153]}]}},"protected":false,"followers_count":174368,"friends_count":18250,"listed_count":2684,"created_at":"Thu
+        Jan 15 18:32:46 +0000 2009","favourites_count":1004,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":true,"statuses_count":213218,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"13078B","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/575654239680114688\/PWqE92oA.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/575654239680114688\/PWqE92oA.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/607907370375585792\/98OHpInF_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/607907370375585792\/98OHpInF_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/19032473\/1426081767","profile_link_color":"821522","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"B3C2DF","profile_text_color":"333333","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":3,"favorite_count":1,"entities":{"hashtags":[{"text":"9newsmornings","indices":[108,122]}],"symbols":[],"user_mentions":[],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 11:54:09 +0000 2015","id":642305121825759232,"id_str":"642305121825759232","text":"Building
+        A Prototype JavaScript Engine for MongoDB: http:\/\/t.co\/CnG5Jutp7U","source":"\u003ca
+        href=\"http:\/\/bufferapp.com\" rel=\"nofollow\"\u003eBuffer\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":459275531,"id_str":"459275531","name":"JavaScript
+        Live","screen_name":"JavaScriptDaily","location":"","description":"Daily JavaScript
+        community news, links and events.","url":"http:\/\/t.co\/yTZ4fsOxGj","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/yTZ4fsOxGj","expanded_url":"http:\/\/jslive.com","display_url":"jslive.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":162855,"friends_count":36,"listed_count":3982,"created_at":"Mon
+        Jan 09 13:43:05 +0000 2012","favourites_count":2,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":4483,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"51CBBF","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/558331836\/jsbg.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/558331836\/jsbg.png","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/612958776312905729\/1D6mR9eF_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/612958776312905729\/1D6mR9eF_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/459275531\/1433778003","profile_link_color":"177A6E","profile_sidebar_border_color":"F0EDDA","profile_sidebar_fill_color":"FDFFF0","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":2,"favorite_count":4,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/CnG5Jutp7U","expanded_url":"http:\/\/thecalvinchan.com\/blog\/2015\/09\/05\/faster-than-v8\/","display_url":"thecalvinchan.com\/blog\/2015\/09\/0\u2026","indices":[52,74]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"}]'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 11:58:21 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json?skip_status=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="mTLyBXknuHQWtGBa4QBXFdGkn", oauth_nonce="f8ad598d22aea1e9963869833dcad2a2",
+        oauth_signature="wSYBiD0aePr16tEiRKo1zoaxKas%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1441972701", oauth_token="21419451-NdGFFUNbmmhujkkANewroA21K2roEweJOSMIul0sN",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '763'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 11 Sep 2015 11:58:20 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 11 Sep 2015 11:58:20 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A144197270017588976; Domain=.twitter.com; Path=/; Expires=Sun,
+        10-Sep-2017 11:58:20 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - e4fa87ef0f4a3adf61fe0bc5ec118046
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '5'
+      X-Rate-Limit-Reset:
+      - '1441973259'
+      X-Response-Time:
+      - '20'
+      X-Transaction:
+      - b147249db91c73d2
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":21419451,"id_str":"21419451","name":"Samson Brock","screen_name":"imwithsam","location":"Denver,
+        CO","description":"Turing School of Software & Design student. @turingschool
+        10+ years of software engineering, web development, and IT consulting experience.","url":"http:\/\/t.co\/L9MK6DSqaj","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/L9MK6DSqaj","expanded_url":"http:\/\/badmotivator.io\/","display_url":"badmotivator.io","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":112,"friends_count":492,"listed_count":4,"created_at":"Fri
+        Feb 20 18:23:20 +0000 2009","favourites_count":106,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":103,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"BADFCD","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/21419451\/1433692998","profile_link_color":"FF0000","profile_sidebar_border_color":"F2E195","profile_sidebar_fill_color":"FFF7CC","profile_text_color":"0C3E53","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 11:58:22 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json?skip_status=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="mTLyBXknuHQWtGBa4QBXFdGkn", oauth_nonce="9593e743e53e23a52dcd5dde6f009436",
+        oauth_signature="7%2B0wSGXnWvVw%2BWfZ6b68l0FsPP4%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1441972702", oauth_token="21419451-NdGFFUNbmmhujkkANewroA21K2roEweJOSMIul0sN",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '763'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 11 Sep 2015 11:58:20 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 11 Sep 2015 11:58:20 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A144197270064322347; Domain=.twitter.com; Path=/; Expires=Sun,
+        10-Sep-2017 11:58:20 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 6f0dbd2faed4b59db659139978cd530d
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '4'
+      X-Rate-Limit-Reset:
+      - '1441973259'
+      X-Response-Time:
+      - '18'
+      X-Transaction:
+      - 6364fce244d9e8ed
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":21419451,"id_str":"21419451","name":"Samson Brock","screen_name":"imwithsam","location":"Denver,
+        CO","description":"Turing School of Software & Design student. @turingschool
+        10+ years of software engineering, web development, and IT consulting experience.","url":"http:\/\/t.co\/L9MK6DSqaj","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/L9MK6DSqaj","expanded_url":"http:\/\/badmotivator.io\/","display_url":"badmotivator.io","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":112,"friends_count":492,"listed_count":4,"created_at":"Fri
+        Feb 20 18:23:20 +0000 2009","favourites_count":106,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":103,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"BADFCD","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/21419451\/1433692998","profile_link_color":"FF0000","profile_sidebar_border_color":"F2E195","profile_sidebar_fill_color":"FFF7CC","profile_text_color":"0C3E53","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 11:58:22 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json?skip_status=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="mTLyBXknuHQWtGBa4QBXFdGkn", oauth_nonce="3e68c26491e1efd5c4f5d3934162cd5c",
+        oauth_signature="gwb8gOY4iTIkmEhWsivR8dJiZ%2BM%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1441972702", oauth_token="21419451-NdGFFUNbmmhujkkANewroA21K2roEweJOSMIul0sN",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '763'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 11 Sep 2015 11:58:21 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 11 Sep 2015 11:58:21 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A144197270109591288; Domain=.twitter.com; Path=/; Expires=Sun,
+        10-Sep-2017 11:58:21 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 5218c95217d96e7caec2c20a73612583
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '3'
+      X-Rate-Limit-Reset:
+      - '1441973259'
+      X-Response-Time:
+      - '58'
+      X-Transaction:
+      - ab4364b8c387a216
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":21419451,"id_str":"21419451","name":"Samson Brock","screen_name":"imwithsam","location":"Denver,
+        CO","description":"Turing School of Software & Design student. @turingschool
+        10+ years of software engineering, web development, and IT consulting experience.","url":"http:\/\/t.co\/L9MK6DSqaj","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/L9MK6DSqaj","expanded_url":"http:\/\/badmotivator.io\/","display_url":"badmotivator.io","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":112,"friends_count":492,"listed_count":4,"created_at":"Fri
+        Feb 20 18:23:20 +0000 2009","favourites_count":106,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":103,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"BADFCD","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/21419451\/1433692998","profile_link_color":"FF0000","profile_sidebar_border_color":"F2E195","profile_sidebar_fill_color":"FFF7CC","profile_text_color":"0C3E53","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 11:58:23 GMT
+recorded_with: VCR 2.9.3
