@@ -25,4 +25,8 @@ class TwitterService
   def update(message)
     client.update(message)
   end
+
+  def retweet(twits)
+    client.retweet(twits)
+  end
 end
