@@ -42,4 +42,29 @@ RSpec.feature "ReTwit Twit", type: :feature do
       end
     end
   end
+
+  scenario "User tries to reTwits their own Twit" do
+    VCR.use_cassette("user_retwits_their_own_twit") do
+      visit root_path
+      click_link "Login"
+      within("form[action='/twits']") do
+        fill_in "twit[message]", with: "This is a test of the Twitter API system."
+        find("button[type='submit']").click
+      end
+
+      new_twit_footer =
+        find(".panel-body",
+             text: "This is a test of the Twitter API system.")
+        .first(:xpath,".//..")
+        .first(".panel-footer")
+
+      within(new_twit_footer) do
+        find(".twit-retwit").click
+      end
+
+      within(".alert-danger") do
+        expect(page).to have_content("Unable to retwit this Twit.")
+      end
+    end
+  end
 end
