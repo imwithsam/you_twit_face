@@ -20,8 +20,8 @@ RSpec.feature "User can log in with Twitter", type: :feature do
         }
       },
       :credentials => {
-        :token => "abc123",
-        :secret => "def456"
+        :token => ENV["twitter_token"],
+        :secret => ENV["twitter_token_secret"]
       }
     })
 
@@ -30,26 +30,30 @@ RSpec.feature "User can log in with Twitter", type: :feature do
   end
 
   scenario "User logs in by clicking Login link" do
-    visit root_path
-    click_link "Login"
+    VCR.use_cassette("user_logs_in_by_clicking_login_link") do
+      visit root_path
+      click_link "Login"
 
-    within(".alert-success") do
-      expect(page).to have_content("You are now logged in to YouTwitFace. Twit away!")
+      within(".alert-success") do
+        expect(page).to have_content("You are now logged in to YouTwitFace. Twit away!")
+      end
+      expect(page).to have_xpath("//img[@src=\"https://pbs.twimg.com/profile_images/606479431251550208/uYn3hNom.jpg\"]")
+      expect(page).to have_content("@imwithsam")
     end
-    expect(page).to have_xpath("//img[@src=\"https://pbs.twimg.com/profile_images/606479431251550208/uYn3hNom.jpg\"]")
-    expect(page).to have_content("@imwithsam")
   end
 
   scenario "User logs in with Twitter, logs out, then back in" do
-    visit root_path
-    click_link "Login"
-    click_link "Logout"
-    click_link "Login"
+    VCR.use_cassette("user_logs_in_with_twitter_logs_out_then_back_in") do
+      visit root_path
+      click_link "Login"
+      click_link "Logout"
+      click_link "Login"
 
-    within(".alert-success") do
-      expect(page).to have_content("You are now logged in to YouTwitFace. Twit away!")
+      within(".alert-success") do
+        expect(page).to have_content("You are now logged in to YouTwitFace. Twit away!")
+      end
+      expect(page).to have_xpath("//img[@src=\"https://pbs.twimg.com/profile_images/606479431251550208/uYn3hNom.jpg\"]")
+      expect(page).to have_content("@imwithsam")
     end
-    expect(page).to have_xpath("//img[@src=\"https://pbs.twimg.com/profile_images/606479431251550208/uYn3hNom.jpg\"]")
-    expect(page).to have_content("@imwithsam")
   end
 end

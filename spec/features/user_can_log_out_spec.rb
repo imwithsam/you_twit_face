@@ -20,8 +20,8 @@ RSpec.feature "User can log out", type: :feature do
         }
       },
       :credentials => {
-        :token => "abc123",
-        :secret => "def456"
+        :token => ENV["twitter_token"],
+        :secret => ENV["twitter_token_secret"]
       }
     })
 
@@ -30,12 +30,14 @@ RSpec.feature "User can log out", type: :feature do
   end
 
   scenario "User logs in with Twitter then logs out" do
-    visit root_path
-    click_link "Login"
-    click_link "Logout"
+    VCR.use_cassette("user_logs_in_with_twitter_then_logs_out") do
+      visit root_path
+      click_link "Login"
+      click_link "Logout"
 
-    within(".alert-success") do
-      expect(page).to have_content("You have been logged out.")
+      within(".alert-success") do
+        expect(page).to have_content("You have been logged out.")
+      end
     end
   end
 end
