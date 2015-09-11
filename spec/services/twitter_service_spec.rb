@@ -31,9 +31,12 @@ RSpec.describe "TwitterService" do
     end
   end
 
-  it "returns user tweets" do
-    VCR.use_cassette("twiiter_service_spec#tweets") do
+  it "returns home timeline" do
+    VCR.use_cassette("twitter_service_spec#home_timeline") do
+      timeline = service.home_timeline
 
+      assert_equal 10, timeline.count
+      assert_equal Array, timeline.class
     end
   end
 end
