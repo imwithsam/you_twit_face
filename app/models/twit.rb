@@ -20,4 +20,8 @@ class Twit
   def retwit_twit(twits)
     service.retweet(twits)
   end
+
+  def reply_to_twit(twit_id, message)
+    service.update(twit_id, message)
+  end
 end

@@ -11,3 +11,14 @@ body {
 .glyphicon.selected {
   color: deepskyblue;
 }
+
+#twit_message {
+  resize: none;
+  width: 215px;
+}
+
+#reply_message {
+  height: 48px;
+  resize: none;
+  width: 260px;
+}

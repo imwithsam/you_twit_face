@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.feature "Post Twit", type: :feature do
+RSpec.feature "Reply to a Twit", type: :feature do
   before do
     # Short circuit OmniAuth requests to use a mock authentication hash
     OmniAuth.config.test_mode = true
@@ -29,27 +29,33 @@ RSpec.feature "Post Twit", type: :feature do
       OmniAuth.config.mock_auth[:twitter]
   end
 
-  scenario "User posts a new Twit" do
-    VCR.use_cassette("user_posts_a_new_twit") do
+  scenario "User replies to a Twit" do
+    VCR.use_cassette("user_replies_to_a_twit") do
       visit root_path
       click_link "Login"
-      within("form[action='/twits']") do
-        fill_in "twit[message]", with: "This is a test of the Twitter API system."
+      within(first(".panel-footer")) do
+        find(".twit-reply").click
+      end
+      within(".modal-content") do
+        fill_in "reply[message]", with: "This is a test of the Twitter API system."
         find("button[type='submit']").click
       end
 
       within(".alert-success") do
-        expect(page).to have_content("Twit posted!")
+        expect(page).to have_content("Reply sent!")
       end
     end
   end
 
-  scenario "User tries to post a Twit longer than 140 characters" do
-    VCR.use_cassette("user_posts_a_twit_longer_than_140_characters") do
+  scenario "User tries to reply to a Twit with more than 140 characters" do
+    VCR.use_cassette("user_replies_with_more_than_140_characters") do
       visit root_path
       click_link "Login"
-      within("form[action='/twits']") do
-        fill_in "twit[message]",
+      within(first(".panel-footer")) do
+        find(".twit-reply").click
+      end
+      within(".modal-content") do
+        fill_in "reply[message]",
           with: "This is a test of the Twitter API system. This tweet is" \
             " longer than 140 characters and should fail to be submitted." \
             " Length of 141 characters."
@@ -57,8 +63,8 @@ RSpec.feature "Post Twit", type: :feature do
       end
 
       within(".alert-danger") do
-        expect(page).to have_content("Unable to post your Twit. Twits can be" \
-        " no longer than 140 characters long.")
+        expect(page).to have_content("Unable to send your reply. Twits can" \
+          " be no longer than 140 characters long.")
       end
     end
   end

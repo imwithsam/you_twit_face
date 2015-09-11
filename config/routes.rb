@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   resources :favorites, only: [:update]
   resources :twits, only: [:create]
   resources :retwit, only: [:update]
+  resources :reply, only: [:create]
 end
