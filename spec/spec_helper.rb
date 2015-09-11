@@ -24,9 +24,9 @@ RSpec.configure do |config|
 
   SimpleCov.start 'rails'
 
-  VCR.configure do |config|
-    config.cassette_library_dir = "spec/cassettes"
-    config.hook_into :webmock # or :fakeweb
+  VCR.configure do |vcr_config|
+    vcr_config.cassette_library_dir = "spec/cassettes"
+    vcr_config.hook_into :webmock # or :fakeweb
   end
 
   # rspec-expectations config goes here. You can use an alternate
