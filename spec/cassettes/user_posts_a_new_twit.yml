@@ -1,0 +1,909 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/statuses/home_timeline.json?count=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="mTLyBXknuHQWtGBa4QBXFdGkn", oauth_nonce="7aadb83a02af348de07832e8cb4f27a6",
+        oauth_signature="LYDZNKqgLmCWUblD6zAZpLXtnA8%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1441945303", oauth_token="21419451-NdGFFUNbmmhujkkANewroA21K2roEweJOSMIul0sN",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '5404'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 11 Sep 2015 04:21:44 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 11 Sep 2015 04:21:44 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A144194530411011046; Domain=.twitter.com; Path=/; Expires=Sun,
+        10-Sep-2017 04:21:44 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 57fae38b4aa757e3d8e76f71d7a19394
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '13'
+      X-Rate-Limit-Reset:
+      - '1441945936'
+      X-Response-Time:
+      - '47'
+      X-Transaction:
+      - acb5d51dcbb8319d
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"created_at":"Fri Sep 11 04:19:57 +0000 2015","id":642190822029557760,"id_str":"642190822029557760","text":"Skyrocketing
+        rent prices: See the budget busters and best deals in Denver http:\/\/t.co\/ORqiDcqH9o
+        http:\/\/t.co\/Wn5EQfUIqi","source":"\u003ca href=\"https:\/\/about.twitter.com\/products\/tweetdeck\"
+        rel=\"nofollow\"\u003eTweetDeck\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":18777618,"id_str":"18777618","name":"KDVR
+        FOX31 Denver","screen_name":"KDVR","location":"Denver, Colorado","description":"FOX31
+        Denver provides #BreakingNews, #COwx, traffic and sports for #Denver and the
+        greater Rocky Mountain Region.  Have a news tip? Email: tips@kdvr.com","url":"http:\/\/t.co\/Vn0YUBPFMJ","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/Vn0YUBPFMJ","expanded_url":"http:\/\/www.kdvr.com","display_url":"kdvr.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":70900,"friends_count":1426,"listed_count":1449,"created_at":"Thu
+        Jan 08 20:25:13 +0000 2009","favourites_count":452,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":95638,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000026049057\/f7df56507ef4e228218ba9ea4e697126.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000026049057\/f7df56507ef4e228218ba9ea4e697126.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000143794637\/a4fccba7dacf12b2b876310786c5e7f4_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000143794637\/a4fccba7dacf12b2b876310786c5e7f4_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/18777618\/1436195700","profile_link_color":"009999","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/ORqiDcqH9o","expanded_url":"http:\/\/link.kdvr.com\/1UFOsRs","display_url":"link.kdvr.com\/1UFOsRs","indices":[74,96]}],"media":[{"id":642190805478739968,"id_str":"642190805478739968","indices":[97,119],"media_url":"http:\/\/pbs.twimg.com\/media\/COmFIpaVEAA3-Pc.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmFIpaVEAA3-Pc.jpg","url":"http:\/\/t.co\/Wn5EQfUIqi","display_url":"pic.twitter.com\/Wn5EQfUIqi","expanded_url":"http:\/\/twitter.com\/KDVR\/status\/642190822029557760\/photo\/1","type":"photo","sizes":{"large":{"w":600,"h":338,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":600,"h":338,"resize":"fit"},"small":{"w":340,"h":191,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642190805478739968,"id_str":"642190805478739968","indices":[97,119],"media_url":"http:\/\/pbs.twimg.com\/media\/COmFIpaVEAA3-Pc.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmFIpaVEAA3-Pc.jpg","url":"http:\/\/t.co\/Wn5EQfUIqi","display_url":"pic.twitter.com\/Wn5EQfUIqi","expanded_url":"http:\/\/twitter.com\/KDVR\/status\/642190822029557760\/photo\/1","type":"photo","sizes":{"large":{"w":600,"h":338,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":600,"h":338,"resize":"fit"},"small":{"w":340,"h":191,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 04:19:25 +0000 2015","id":642190687543382016,"id_str":"642190687543382016","text":"2
+        hashtag rules that will boost your social media audience @garyvee http:\/\/t.co\/vfNLuMW3Bd
+        http:\/\/t.co\/Q99KkHJkNl","source":"\u003ca href=\"http:\/\/www.socialflow.com\"
+        rel=\"nofollow\"\u003eSocialFlow\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":16896485,"id_str":"16896485","name":"Inc.
+        ","screen_name":"Inc","location":"New York City","description":"Everything
+        you need to know to start and grow your business now.","url":"http:\/\/t.co\/YslvkphWzr","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/YslvkphWzr","expanded_url":"http:\/\/www.inc.com","display_url":"inc.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":1445085,"friends_count":1689,"listed_count":26310,"created_at":"Tue
+        Oct 21 23:47:30 +0000 2008","favourites_count":664,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":99017,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"E8E8E8","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000172834508\/aGUoUmqB.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000172834508\/aGUoUmqB.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/539435715482750976\/mzF0N56L_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/539435715482750976\/mzF0N56L_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/16896485\/1439377438","profile_link_color":"CC3366","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DAECF4","profile_text_color":"663B12","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":4,"favorite_count":4,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"garyvee","name":"Gary
+        Vaynerchuk","id":5768872,"id_str":"5768872","indices":[59,67]}],"urls":[{"url":"http:\/\/t.co\/vfNLuMW3Bd","expanded_url":"http:\/\/bit.ly\/1Qril1X","display_url":"bit.ly\/1Qril1X","indices":[68,90]}],"media":[{"id":642190686582738944,"id_str":"642190686582738944","indices":[91,113],"media_url":"http:\/\/pbs.twimg.com\/media\/COmFBufUEAAfglB.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmFBufUEAAfglB.jpg","url":"http:\/\/t.co\/Q99KkHJkNl","display_url":"pic.twitter.com\/Q99KkHJkNl","expanded_url":"http:\/\/twitter.com\/Inc\/status\/642190687543382016\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":191,"resize":"fit"},"medium":{"w":600,"h":337,"resize":"fit"},"large":{"w":1024,"h":576,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642190686582738944,"id_str":"642190686582738944","indices":[91,113],"media_url":"http:\/\/pbs.twimg.com\/media\/COmFBufUEAAfglB.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmFBufUEAAfglB.jpg","url":"http:\/\/t.co\/Q99KkHJkNl","display_url":"pic.twitter.com\/Q99KkHJkNl","expanded_url":"http:\/\/twitter.com\/Inc\/status\/642190687543382016\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":191,"resize":"fit"},"medium":{"w":600,"h":337,"resize":"fit"},"large":{"w":1024,"h":576,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 04:18:26 +0000 2015","id":642190440045936640,"id_str":"642190440045936640","text":"Denver
+        judge to take final look at use-of-force case before statute of limitations
+        runs out http:\/\/t.co\/HffAXJh01X http:\/\/t.co\/qGAXwHPPtS","source":"\u003ca
+        href=\"https:\/\/about.twitter.com\/products\/tweetdeck\" rel=\"nofollow\"\u003eTweetDeck\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":18777618,"id_str":"18777618","name":"KDVR
+        FOX31 Denver","screen_name":"KDVR","location":"Denver, Colorado","description":"FOX31
+        Denver provides #BreakingNews, #COwx, traffic and sports for #Denver and the
+        greater Rocky Mountain Region.  Have a news tip? Email: tips@kdvr.com","url":"http:\/\/t.co\/Vn0YUBPFMJ","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/Vn0YUBPFMJ","expanded_url":"http:\/\/www.kdvr.com","display_url":"kdvr.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":70900,"friends_count":1426,"listed_count":1449,"created_at":"Thu
+        Jan 08 20:25:13 +0000 2009","favourites_count":452,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":95638,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000026049057\/f7df56507ef4e228218ba9ea4e697126.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000026049057\/f7df56507ef4e228218ba9ea4e697126.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000143794637\/a4fccba7dacf12b2b876310786c5e7f4_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000143794637\/a4fccba7dacf12b2b876310786c5e7f4_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/18777618\/1436195700","profile_link_color":"009999","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/HffAXJh01X","expanded_url":"http:\/\/link.kdvr.com\/1OERzC1","display_url":"link.kdvr.com\/1OERzC1","indices":[92,114]}],"media":[{"id":642190356918874112,"id_str":"642190356918874112","indices":[115,137],"media_url":"http:\/\/pbs.twimg.com\/media\/COmEuiZUsAAemNp.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmEuiZUsAAemNp.jpg","url":"http:\/\/t.co\/qGAXwHPPtS","display_url":"pic.twitter.com\/qGAXwHPPtS","expanded_url":"http:\/\/twitter.com\/KDVR\/status\/642190440045936640\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":191,"resize":"fit"},"medium":{"w":600,"h":337,"resize":"fit"},"large":{"w":1024,"h":576,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642190356918874112,"id_str":"642190356918874112","indices":[115,137],"media_url":"http:\/\/pbs.twimg.com\/media\/COmEuiZUsAAemNp.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmEuiZUsAAemNp.jpg","url":"http:\/\/t.co\/qGAXwHPPtS","display_url":"pic.twitter.com\/qGAXwHPPtS","expanded_url":"http:\/\/twitter.com\/KDVR\/status\/642190440045936640\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":191,"resize":"fit"},"medium":{"w":600,"h":337,"resize":"fit"},"large":{"w":1024,"h":576,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 04:17:06 +0000 2015","id":642190103792754688,"id_str":"642190103792754688","text":"Paper
+        may be the best app yet for taking notes on iPhones http:\/\/t.co\/yy7UCslcPy
+        http:\/\/t.co\/WdEYzCADFo","source":"\u003ca href=\"http:\/\/www.socialflow.com\"
+        rel=\"nofollow\"\u003eSocialFlow\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1344951,"id_str":"1344951","name":"WIRED","screen_name":"WIRED","location":"San
+        Francisco\/New York","description":"WIRED is where tomorrow is realized.","url":"http:\/\/t.co\/AbRkBRjcYo","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/AbRkBRjcYo","expanded_url":"http:\/\/WIRED.com","display_url":"WIRED.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":5046073,"friends_count":233,"listed_count":81775,"created_at":"Sat
+        Mar 17 09:57:25 +0000 2007","favourites_count":1656,"utc_offset":-25200,"time_zone":"Pacific
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":49806,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":true,"profile_background_color":"000000","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/734548027\/5e5ee18945d22a9e2d9971208971bfdd.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/734548027\/5e5ee18945d22a9e2d9971208971bfdd.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/615598832726970372\/jsK-gBSt_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/615598832726970372\/jsK-gBSt_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1344951\/1440020452","profile_link_color":"99DCF0","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"EEEEEE","profile_text_color":"000000","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":12,"favorite_count":30,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/yy7UCslcPy","expanded_url":"http:\/\/wrd.cm\/1NkToFm","display_url":"wrd.cm\/1NkToFm","indices":[58,80]}],"media":[{"id":642190103104786432,"id_str":"642190103104786432","indices":[81,103],"media_url":"http:\/\/pbs.twimg.com\/media\/COmEfw3VEAAQour.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmEfw3VEAAQour.jpg","url":"http:\/\/t.co\/WdEYzCADFo","display_url":"pic.twitter.com\/WdEYzCADFo","expanded_url":"http:\/\/twitter.com\/WIRED\/status\/642190103792754688\/photo\/1","type":"photo","sizes":{"medium":{"w":582,"h":388,"resize":"fit"},"large":{"w":582,"h":388,"resize":"fit"},"small":{"w":340,"h":226,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"}}}]},"extended_entities":{"media":[{"id":642190103104786432,"id_str":"642190103104786432","indices":[81,103],"media_url":"http:\/\/pbs.twimg.com\/media\/COmEfw3VEAAQour.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmEfw3VEAAQour.jpg","url":"http:\/\/t.co\/WdEYzCADFo","display_url":"pic.twitter.com\/WdEYzCADFo","expanded_url":"http:\/\/twitter.com\/WIRED\/status\/642190103792754688\/photo\/1","type":"photo","sizes":{"medium":{"w":582,"h":388,"resize":"fit"},"large":{"w":582,"h":388,"resize":"fit"},"small":{"w":340,"h":226,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 04:16:03 +0000 2015","id":642189837513191424,"id_str":"642189837513191424","text":"Denver
+        startups! Apply to the TC Meetup + Pitch-Off coming your way http:\/\/t.co\/zujOQ6Km0i
+        http:\/\/t.co\/xIP7hUmWXk","source":"\u003ca href=\"http:\/\/www.socialflow.com\"
+        rel=\"nofollow\"\u003eSocialFlow\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":816653,"id_str":"816653","name":"TechCrunch","screen_name":"TechCrunch","location":"San
+        Francisco, CA","description":"Breaking technology news, analysis, and opinions
+        from TechCrunch. The number one guide for all things tech.","url":"http:\/\/t.co\/b5Oyx12qGG","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/b5Oyx12qGG","expanded_url":"http:\/\/techcrunch.com","display_url":"techcrunch.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":5588908,"friends_count":719,"listed_count":99590,"created_at":"Wed
+        Mar 07 01:27:09 +0000 2007","favourites_count":760,"utc_offset":-25200,"time_zone":"Pacific
+        Time (US & Canada)","geo_enabled":true,"verified":true,"statuses_count":108151,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":true,"profile_background_color":"149500","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/621096023751004161\/BAKy7hCT.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/621096023751004161\/BAKy7hCT.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/615392662233808896\/EtxjSSKk_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/615392662233808896\/EtxjSSKk_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/816653\/1431096993","profile_link_color":"097000","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDFFCC","profile_text_color":"222222","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":5,"favorite_count":2,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/zujOQ6Km0i","expanded_url":"http:\/\/tcrn.ch\/1NkieoT","display_url":"tcrn.ch\/1NkieoT","indices":[68,90]}],"media":[{"id":642189836468813824,"id_str":"642189836468813824","indices":[91,113],"media_url":"http:\/\/pbs.twimg.com\/media\/COmEQPkXAAA34OC.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmEQPkXAAA34OC.jpg","url":"http:\/\/t.co\/xIP7hUmWXk","display_url":"pic.twitter.com\/xIP7hUmWXk","expanded_url":"http:\/\/twitter.com\/TechCrunch\/status\/642189837513191424\/photo\/1","type":"photo","sizes":{"medium":{"w":600,"h":390,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":738,"h":480,"resize":"fit"},"small":{"w":340,"h":221,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642189836468813824,"id_str":"642189836468813824","indices":[91,113],"media_url":"http:\/\/pbs.twimg.com\/media\/COmEQPkXAAA34OC.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmEQPkXAAA34OC.jpg","url":"http:\/\/t.co\/xIP7hUmWXk","display_url":"pic.twitter.com\/xIP7hUmWXk","expanded_url":"http:\/\/twitter.com\/TechCrunch\/status\/642189837513191424\/photo\/1","type":"photo","sizes":{"medium":{"w":600,"h":390,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":738,"h":480,"resize":"fit"},"small":{"w":340,"h":221,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 04:12:56 +0000 2015","id":642189056311468032,"id_str":"642189056311468032","text":"RT
+        @9Preps: Thursday night HS Football Scoreboard here: http:\/\/t.co\/3ufW2N8azO
+        #9news @9Preps","source":"\u003ca href=\"https:\/\/roundteam.co\" rel=\"nofollow\"\u003eRoundTeam\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":19032473,"id_str":"19032473","name":"9NEWS
+        Denver","screen_name":"9NEWS","location":"Denver, Colorado","description":"Headlines:
+        Yes, but use Twitter for much more: #BeOn9, #9WX, chats, etc. We use Twitter
+        to engage with you! We also, RT Team 9NEWS http:\/\/t.co\/sGKKRaZynN.","url":"http:\/\/t.co\/tqpZuE2KEo","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/tqpZuE2KEo","expanded_url":"http:\/\/www.9news.com","display_url":"9news.com","indices":[0,22]}]},"description":{"urls":[{"url":"http:\/\/t.co\/sGKKRaZynN","expanded_url":"http:\/\/on9news.tv\/9team","display_url":"on9news.tv\/9team","indices":[131,153]}]}},"protected":false,"followers_count":174342,"friends_count":18252,"listed_count":2684,"created_at":"Thu
+        Jan 15 18:32:46 +0000 2009","favourites_count":1004,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":true,"statuses_count":213188,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"13078B","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/575654239680114688\/PWqE92oA.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/575654239680114688\/PWqE92oA.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/607907370375585792\/98OHpInF_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/607907370375585792\/98OHpInF_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/19032473\/1426081767","profile_link_color":"821522","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"B3C2DF","profile_text_color":"333333","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Fri
+        Sep 11 04:08:05 +0000 2015","id":642187833420083201,"id_str":"642187833420083201","text":"Thursday
+        night HS Football Scoreboard here: http:\/\/t.co\/3ufW2N8azO #9news @9Preps","source":"\u003ca
+        href=\"http:\/\/twitter.com\/#!\/download\/ipad\" rel=\"nofollow\"\u003eTwitter
+        for iPad\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":54578940,"id_str":"54578940","name":"9NEWS
+        Prep Sports","screen_name":"9Preps","location":"Denver, CO","description":"Colorado
+        HS sports, news, scores, stats, photos & video brought to you by 9NEWS, KUSA-TV
+        & KTVD-TV.","url":"http:\/\/t.co\/HOkif9X2Ey","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/HOkif9X2Ey","expanded_url":"http:\/\/www.9news.com\/hss","display_url":"9news.com\/hss","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":13658,"friends_count":1548,"listed_count":226,"created_at":"Tue
+        Jul 07 15:29:33 +0000 2009","favourites_count":1282,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":true,"statuses_count":18767,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/514989790165348352\/UYAKfTja_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/514989790165348352\/UYAKfTja_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/54578940\/1438809236","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":2,"entities":{"hashtags":[{"text":"9news","indices":[67,73]}],"symbols":[],"user_mentions":[{"screen_name":"9Preps","name":"9NEWS
+        Prep Sports","id":54578940,"id_str":"54578940","indices":[74,81]}],"urls":[{"url":"http:\/\/t.co\/3ufW2N8azO","expanded_url":"http:\/\/www.9news.com\/hss","display_url":"9news.com\/hss","indices":[44,66]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"entities":{"hashtags":[{"text":"9news","indices":[79,85]}],"symbols":[],"user_mentions":[{"screen_name":"9Preps","name":"9NEWS
+        Prep Sports","id":54578940,"id_str":"54578940","indices":[3,10]},{"screen_name":"9Preps","name":"9NEWS
+        Prep Sports","id":54578940,"id_str":"54578940","indices":[86,93]}],"urls":[{"url":"http:\/\/t.co\/3ufW2N8azO","expanded_url":"http:\/\/www.9news.com\/hss","display_url":"9news.com\/hss","indices":[56,78]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 04:12:30 +0000 2015","id":642188944134787072,"id_str":"642188944134787072","text":"4
+        cities you didn''t know were startup hotbeds http:\/\/t.co\/zcIGw4ZGfr @MarlaTabaka","source":"\u003ca
+        href=\"http:\/\/www.socialflow.com\" rel=\"nofollow\"\u003eSocialFlow\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":16896485,"id_str":"16896485","name":"Inc.
+        ","screen_name":"Inc","location":"New York City","description":"Everything
+        you need to know to start and grow your business now.","url":"http:\/\/t.co\/YslvkphWzr","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/YslvkphWzr","expanded_url":"http:\/\/www.inc.com","display_url":"inc.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":1445085,"friends_count":1689,"listed_count":26310,"created_at":"Tue
+        Oct 21 23:47:30 +0000 2008","favourites_count":664,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":99017,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"E8E8E8","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000172834508\/aGUoUmqB.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000172834508\/aGUoUmqB.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/539435715482750976\/mzF0N56L_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/539435715482750976\/mzF0N56L_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/16896485\/1439377438","profile_link_color":"CC3366","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DAECF4","profile_text_color":"663B12","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":12,"favorite_count":9,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"MarlaTabaka","name":"Marla
+        Tabaka","id":14334725,"id_str":"14334725","indices":[69,81]}],"urls":[{"url":"http:\/\/t.co\/zcIGw4ZGfr","expanded_url":"http:\/\/bit.ly\/1JXEtfP","display_url":"bit.ly\/1JXEtfP","indices":[46,68]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 04:11:00 +0000 2015","id":642188566232215552,"id_str":"642188566232215552","text":"#Football
+        is back! In honor of that, we''re just going to leave this post here of a
+        sign sp\u2026 http:\/\/t.co\/6pJnAxapXJ http:\/\/t.co\/cybyFBhQ91","source":"\u003ca
+        href=\"http:\/\/ifttt.com\" rel=\"nofollow\"\u003eIFTTT\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":19032473,"id_str":"19032473","name":"9NEWS
+        Denver","screen_name":"9NEWS","location":"Denver, Colorado","description":"Headlines:
+        Yes, but use Twitter for much more: #BeOn9, #9WX, chats, etc. We use Twitter
+        to engage with you! We also, RT Team 9NEWS http:\/\/t.co\/sGKKRaZynN.","url":"http:\/\/t.co\/tqpZuE2KEo","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/tqpZuE2KEo","expanded_url":"http:\/\/www.9news.com","display_url":"9news.com","indices":[0,22]}]},"description":{"urls":[{"url":"http:\/\/t.co\/sGKKRaZynN","expanded_url":"http:\/\/on9news.tv\/9team","display_url":"on9news.tv\/9team","indices":[131,153]}]}},"protected":false,"followers_count":174342,"friends_count":18252,"listed_count":2684,"created_at":"Thu
+        Jan 15 18:32:46 +0000 2009","favourites_count":1004,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":true,"statuses_count":213188,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"13078B","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/575654239680114688\/PWqE92oA.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/575654239680114688\/PWqE92oA.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/607907370375585792\/98OHpInF_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/607907370375585792\/98OHpInF_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/19032473\/1426081767","profile_link_color":"821522","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"B3C2DF","profile_text_color":"333333","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":10,"favorite_count":13,"entities":{"hashtags":[{"text":"Football","indices":[0,9]}],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/6pJnAxapXJ","expanded_url":"http:\/\/ift.tt\/1iBe8NT","display_url":"ift.tt\/1iBe8NT","indices":[92,114]}],"media":[{"id":642188566148292608,"id_str":"642188566148292608","indices":[115,137],"media_url":"http:\/\/pbs.twimg.com\/media\/COmDGTQWIAAitLI.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmDGTQWIAAitLI.jpg","url":"http:\/\/t.co\/cybyFBhQ91","display_url":"pic.twitter.com\/cybyFBhQ91","expanded_url":"http:\/\/twitter.com\/9NEWS\/status\/642188566232215552\/photo\/1","type":"photo","sizes":{"small":{"w":340,"h":340,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":640,"h":640,"resize":"fit"},"medium":{"w":600,"h":600,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642188566148292608,"id_str":"642188566148292608","indices":[115,137],"media_url":"http:\/\/pbs.twimg.com\/media\/COmDGTQWIAAitLI.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmDGTQWIAAitLI.jpg","url":"http:\/\/t.co\/cybyFBhQ91","display_url":"pic.twitter.com\/cybyFBhQ91","expanded_url":"http:\/\/twitter.com\/9NEWS\/status\/642188566232215552\/photo\/1","type":"photo","sizes":{"small":{"w":340,"h":340,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":640,"h":640,"resize":"fit"},"medium":{"w":600,"h":600,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 04:10:55 +0000 2015","id":642188545378099200,"id_str":"642188545378099200","text":"10
+        Boost startups from the UK that you should know about http:\/\/t.co\/oV2vvlwgVR
+        http:\/\/t.co\/cVvYYvx4PZ","source":"\u003ca href=\"http:\/\/www.socialflow.com\"
+        rel=\"nofollow\"\u003eSocialFlow\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":10876852,"id_str":"10876852","name":"The
+        Next Web","screen_name":"TheNextWeb","location":"The Interwebs.","description":"Welcome
+        to The Next Web on Twitter. Your source for International Technology News,
+        Business and Culture.","url":"http:\/\/t.co\/Zubn10uEIK","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/Zubn10uEIK","expanded_url":"http:\/\/thenextweb.com","display_url":"thenextweb.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":1618779,"friends_count":1175,"listed_count":29946,"created_at":"Wed
+        Dec 05 17:26:15 +0000 2007","favourites_count":1785,"utc_offset":7200,"time_zone":"Amsterdam","geo_enabled":false,"verified":true,"statuses_count":92082,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"FF3C1F","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000164731038\/_3evIEjW.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000164731038\/_3evIEjW.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/615443761083101184\/XCeLr1MZ_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/615443761083101184\/XCeLr1MZ_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/10876852\/1426875457","profile_link_color":"FF3C1F","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"F3F3F3","profile_text_color":"333333","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":7,"favorite_count":7,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/oV2vvlwgVR","expanded_url":"http:\/\/tnw.me\/F5Zvm8T","display_url":"tnw.me\/F5Zvm8T","indices":[57,79]}],"media":[{"id":642188544614596608,"id_str":"642188544614596608","indices":[80,102],"media_url":"http:\/\/pbs.twimg.com\/media\/COmDFDCUAAAz8Wa.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmDFDCUAAAz8Wa.jpg","url":"http:\/\/t.co\/cVvYYvx4PZ","display_url":"pic.twitter.com\/cVvYYvx4PZ","expanded_url":"http:\/\/twitter.com\/TheNextWeb\/status\/642188545378099200\/photo\/1","type":"photo","sizes":{"large":{"w":1024,"h":512,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":600,"h":300,"resize":"fit"},"small":{"w":340,"h":170,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642188544614596608,"id_str":"642188544614596608","indices":[80,102],"media_url":"http:\/\/pbs.twimg.com\/media\/COmDFDCUAAAz8Wa.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmDFDCUAAAz8Wa.jpg","url":"http:\/\/t.co\/cVvYYvx4PZ","display_url":"pic.twitter.com\/cVvYYvx4PZ","expanded_url":"http:\/\/twitter.com\/TheNextWeb\/status\/642188545378099200\/photo\/1","type":"photo","sizes":{"large":{"w":1024,"h":512,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":600,"h":300,"resize":"fit"},"small":{"w":340,"h":170,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 04:10:49 +0000 2015","id":642188520652709888,"id_str":"642188520652709888","text":"Guess
+        I was really into camp #tbt http:\/\/t.co\/KTK3j59gnD","source":"\u003ca href=\"http:\/\/twitter.com\/download\/iphone\"
+        rel=\"nofollow\"\u003eTwitter for iPhone\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":55117855,"id_str":"55117855","name":"Amy
+        Schumer","screen_name":"amyschumer","location":"nyc","description":"Inside
+        Amy Schumer airs Tuesdays at 10pm on Comedy Central","url":"http:\/\/t.co\/k2xxMK5URy","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/k2xxMK5URy","expanded_url":"http:\/\/www.amyschumer.com","display_url":"amyschumer.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":1907286,"friends_count":1813,"listed_count":9121,"created_at":"Thu
+        Jul 09 02:45:03 +0000 2009","favourites_count":7806,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":true,"verified":true,"statuses_count":7677,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"000000","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000137379011\/uzc2bOIE.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000137379011\/uzc2bOIE.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/619290680741990400\/NF4yF6gJ_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/619290680741990400\/NF4yF6gJ_normal.jpg","profile_link_color":"FF0000","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"7AC3EE","profile_text_color":"3D1957","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":57,"favorite_count":691,"entities":{"hashtags":[{"text":"tbt","indices":[29,33]}],"symbols":[],"user_mentions":[],"urls":[],"media":[{"id":642188513748877312,"id_str":"642188513748877312","indices":[34,56],"media_url":"http:\/\/pbs.twimg.com\/media\/COmDDQDWgAAhZ9Y.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmDDQDWgAAhZ9Y.jpg","url":"http:\/\/t.co\/KTK3j59gnD","display_url":"pic.twitter.com\/KTK3j59gnD","expanded_url":"http:\/\/twitter.com\/amyschumer\/status\/642188520652709888\/photo\/1","type":"photo","sizes":{"small":{"w":340,"h":255,"resize":"fit"},"medium":{"w":600,"h":450,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":1024,"h":768,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642188513748877312,"id_str":"642188513748877312","indices":[34,56],"media_url":"http:\/\/pbs.twimg.com\/media\/COmDDQDWgAAhZ9Y.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmDDQDWgAAhZ9Y.jpg","url":"http:\/\/t.co\/KTK3j59gnD","display_url":"pic.twitter.com\/KTK3j59gnD","expanded_url":"http:\/\/twitter.com\/amyschumer\/status\/642188520652709888\/photo\/1","type":"photo","sizes":{"small":{"w":340,"h":255,"resize":"fit"},"medium":{"w":600,"h":450,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":1024,"h":768,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"}]'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 04:21:44 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json?skip_status=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="mTLyBXknuHQWtGBa4QBXFdGkn", oauth_nonce="931679f03268a1e77f009f7652e79cca",
+        oauth_signature="EXrxPV2y2dUNKNLm36zeqc2AnaI%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1441945304", oauth_token="21419451-NdGFFUNbmmhujkkANewroA21K2roEweJOSMIul0sN",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '761'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 11 Sep 2015 04:21:44 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 11 Sep 2015 04:21:44 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A144194530442477279; Domain=.twitter.com; Path=/; Expires=Sun,
+        10-Sep-2017 04:21:44 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 42b0f956a9152af28d069b78d863a934
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '11'
+      X-Rate-Limit-Reset:
+      - '1441945936'
+      X-Response-Time:
+      - '17'
+      X-Transaction:
+      - 2c234affa5e03281
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":21419451,"id_str":"21419451","name":"Samson Brock","screen_name":"imwithsam","location":"Denver,
+        CO","description":"Turing School of Software & Design student. @turingschool
+        10+ years of software engineering, web development, and IT consulting experience.","url":"http:\/\/t.co\/L9MK6DSqaj","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/L9MK6DSqaj","expanded_url":"http:\/\/badmotivator.io\/","display_url":"badmotivator.io","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":112,"friends_count":492,"listed_count":4,"created_at":"Fri
+        Feb 20 18:23:20 +0000 2009","favourites_count":102,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":102,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"BADFCD","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/21419451\/1433692998","profile_link_color":"FF0000","profile_sidebar_border_color":"F2E195","profile_sidebar_fill_color":"FFF7CC","profile_text_color":"0C3E53","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 04:21:44 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json?skip_status=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="mTLyBXknuHQWtGBa4QBXFdGkn", oauth_nonce="4b29ee6092f5ea831f1e38674726d4cd",
+        oauth_signature="Xe0fH6gccb7D%2FTbwZCLQRvDlMo4%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1441945304", oauth_token="21419451-NdGFFUNbmmhujkkANewroA21K2roEweJOSMIul0sN",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '761'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 11 Sep 2015 04:21:44 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 11 Sep 2015 04:21:44 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A144194530472502919; Domain=.twitter.com; Path=/; Expires=Sun,
+        10-Sep-2017 04:21:44 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - d6b1c41751c2efff22a3cd90ed9ecc6d
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '10'
+      X-Rate-Limit-Reset:
+      - '1441945936'
+      X-Response-Time:
+      - '20'
+      X-Transaction:
+      - 044d5eb2c3dc8a0b
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":21419451,"id_str":"21419451","name":"Samson Brock","screen_name":"imwithsam","location":"Denver,
+        CO","description":"Turing School of Software & Design student. @turingschool
+        10+ years of software engineering, web development, and IT consulting experience.","url":"http:\/\/t.co\/L9MK6DSqaj","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/L9MK6DSqaj","expanded_url":"http:\/\/badmotivator.io\/","display_url":"badmotivator.io","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":112,"friends_count":492,"listed_count":4,"created_at":"Fri
+        Feb 20 18:23:20 +0000 2009","favourites_count":102,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":102,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"BADFCD","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/21419451\/1433692998","profile_link_color":"FF0000","profile_sidebar_border_color":"F2E195","profile_sidebar_fill_color":"FFF7CC","profile_text_color":"0C3E53","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 04:21:44 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json?skip_status=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="mTLyBXknuHQWtGBa4QBXFdGkn", oauth_nonce="a804814b55b2eaff030717a89b56ee1b",
+        oauth_signature="irL4kDbUfcJ%2BTs8VGPsBmx2HxlE%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1441945304", oauth_token="21419451-NdGFFUNbmmhujkkANewroA21K2roEweJOSMIul0sN",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '761'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 11 Sep 2015 04:21:45 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 11 Sep 2015 04:21:45 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A144194530498899527; Domain=.twitter.com; Path=/; Expires=Sun,
+        10-Sep-2017 04:21:45 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 855b48aabb949a1547421f4556b23993
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '9'
+      X-Rate-Limit-Reset:
+      - '1441945936'
+      X-Response-Time:
+      - '18'
+      X-Transaction:
+      - 55f079fbae1cf44a
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":21419451,"id_str":"21419451","name":"Samson Brock","screen_name":"imwithsam","location":"Denver,
+        CO","description":"Turing School of Software & Design student. @turingschool
+        10+ years of software engineering, web development, and IT consulting experience.","url":"http:\/\/t.co\/L9MK6DSqaj","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/L9MK6DSqaj","expanded_url":"http:\/\/badmotivator.io\/","display_url":"badmotivator.io","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":112,"friends_count":492,"listed_count":4,"created_at":"Fri
+        Feb 20 18:23:20 +0000 2009","favourites_count":102,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":102,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"BADFCD","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/21419451\/1433692998","profile_link_color":"FF0000","profile_sidebar_border_color":"F2E195","profile_sidebar_fill_color":"FFF7CC","profile_text_color":"0C3E53","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 04:21:45 GMT
+- request:
+    method: post
+    uri: https://api.twitter.com/1.1/statuses/update.json
+    body:
+      encoding: UTF-8
+      string: status=This+is+a+test+of+the+Twitter+API+system.
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="mTLyBXknuHQWtGBa4QBXFdGkn", oauth_nonce="d84271ff2c6e2f50e90a8896b3788af9",
+        oauth_signature="yXNhXilzWG42UHELJedDMpCE95E%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1441945305", oauth_token="21419451-NdGFFUNbmmhujkkANewroA21K2roEweJOSMIul0sN",
+        oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '1047'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 11 Sep 2015 04:21:45 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 11 Sep 2015 04:21:45 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A144194530528975619; Domain=.twitter.com; Path=/; Expires=Sun,
+        10-Sep-2017 04:21:45 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 4abdf80c1880d584bf907c949bdd03e5
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Time:
+      - '114'
+      X-Transaction:
+      - 439faf35b0af71fd
+      X-Tsa-Request-Body-Time:
+      - '1'
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"created_at":"Fri Sep 11 04:21:45 +0000 2015","id":642191272246009856,"id_str":"642191272246009856","text":"This
+        is a test of the Twitter API system.","source":"\u003ca href=\"https:\/\/youtwitface-dev.herokuapp.com\"
+        rel=\"nofollow\"\u003eyou_twit_face_dev\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":21419451,"id_str":"21419451","name":"Samson
+        Brock","screen_name":"imwithsam","location":"Denver, CO","description":"Turing
+        School of Software & Design student. @turingschool 10+ years of software engineering,
+        web development, and IT consulting experience.","url":"http:\/\/t.co\/L9MK6DSqaj","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/L9MK6DSqaj","expanded_url":"http:\/\/badmotivator.io\/","display_url":"badmotivator.io","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":112,"friends_count":492,"listed_count":4,"created_at":"Fri
+        Feb 20 18:23:20 +0000 2009","favourites_count":102,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":103,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"BADFCD","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/21419451\/1433692998","profile_link_color":"FF0000","profile_sidebar_border_color":"F2E195","profile_sidebar_fill_color":"FFF7CC","profile_text_color":"0C3E53","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"}'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 04:21:45 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/statuses/home_timeline.json?count=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="mTLyBXknuHQWtGBa4QBXFdGkn", oauth_nonce="eac30e840ec9788ce82fd4338b4b7f64",
+        oauth_signature="r5xT5b1CuoxzeUyfVpqKxOJcfLs%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1441945305", oauth_token="21419451-NdGFFUNbmmhujkkANewroA21K2roEweJOSMIul0sN",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '5395'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 11 Sep 2015 04:21:45 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 11 Sep 2015 04:21:45 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A144194530566648053; Domain=.twitter.com; Path=/; Expires=Sun,
+        10-Sep-2017 04:21:45 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - de5cd98b620f5b7867b7a9fd020cd3ce
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '12'
+      X-Rate-Limit-Reset:
+      - '1441945936'
+      X-Response-Time:
+      - '33'
+      X-Transaction:
+      - d9a60589eec2b88a
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"created_at":"Fri Sep 11 04:21:45 +0000 2015","id":642191272246009856,"id_str":"642191272246009856","text":"This
+        is a test of the Twitter API system.","source":"\u003ca href=\"https:\/\/youtwitface-dev.herokuapp.com\"
+        rel=\"nofollow\"\u003eyou_twit_face_dev\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":21419451,"id_str":"21419451","name":"Samson
+        Brock","screen_name":"imwithsam","location":"Denver, CO","description":"Turing
+        School of Software & Design student. @turingschool 10+ years of software engineering,
+        web development, and IT consulting experience.","url":"http:\/\/t.co\/L9MK6DSqaj","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/L9MK6DSqaj","expanded_url":"http:\/\/badmotivator.io\/","display_url":"badmotivator.io","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":112,"friends_count":492,"listed_count":4,"created_at":"Fri
+        Feb 20 18:23:20 +0000 2009","favourites_count":102,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":103,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"BADFCD","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/21419451\/1433692998","profile_link_color":"FF0000","profile_sidebar_border_color":"F2E195","profile_sidebar_fill_color":"FFF7CC","profile_text_color":"0C3E53","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"favorited":false,"retweeted":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 04:19:57 +0000 2015","id":642190822029557760,"id_str":"642190822029557760","text":"Skyrocketing
+        rent prices: See the budget busters and best deals in Denver http:\/\/t.co\/ORqiDcqH9o
+        http:\/\/t.co\/Wn5EQfUIqi","source":"\u003ca href=\"https:\/\/about.twitter.com\/products\/tweetdeck\"
+        rel=\"nofollow\"\u003eTweetDeck\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":18777618,"id_str":"18777618","name":"KDVR
+        FOX31 Denver","screen_name":"KDVR","location":"Denver, Colorado","description":"FOX31
+        Denver provides #BreakingNews, #COwx, traffic and sports for #Denver and the
+        greater Rocky Mountain Region.  Have a news tip? Email: tips@kdvr.com","url":"http:\/\/t.co\/Vn0YUBPFMJ","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/Vn0YUBPFMJ","expanded_url":"http:\/\/www.kdvr.com","display_url":"kdvr.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":70900,"friends_count":1426,"listed_count":1449,"created_at":"Thu
+        Jan 08 20:25:13 +0000 2009","favourites_count":452,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":95638,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000026049057\/f7df56507ef4e228218ba9ea4e697126.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000026049057\/f7df56507ef4e228218ba9ea4e697126.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000143794637\/a4fccba7dacf12b2b876310786c5e7f4_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000143794637\/a4fccba7dacf12b2b876310786c5e7f4_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/18777618\/1436195700","profile_link_color":"009999","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/ORqiDcqH9o","expanded_url":"http:\/\/link.kdvr.com\/1UFOsRs","display_url":"link.kdvr.com\/1UFOsRs","indices":[74,96]}],"media":[{"id":642190805478739968,"id_str":"642190805478739968","indices":[97,119],"media_url":"http:\/\/pbs.twimg.com\/media\/COmFIpaVEAA3-Pc.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmFIpaVEAA3-Pc.jpg","url":"http:\/\/t.co\/Wn5EQfUIqi","display_url":"pic.twitter.com\/Wn5EQfUIqi","expanded_url":"http:\/\/twitter.com\/KDVR\/status\/642190822029557760\/photo\/1","type":"photo","sizes":{"large":{"w":600,"h":338,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":600,"h":338,"resize":"fit"},"small":{"w":340,"h":191,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642190805478739968,"id_str":"642190805478739968","indices":[97,119],"media_url":"http:\/\/pbs.twimg.com\/media\/COmFIpaVEAA3-Pc.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmFIpaVEAA3-Pc.jpg","url":"http:\/\/t.co\/Wn5EQfUIqi","display_url":"pic.twitter.com\/Wn5EQfUIqi","expanded_url":"http:\/\/twitter.com\/KDVR\/status\/642190822029557760\/photo\/1","type":"photo","sizes":{"large":{"w":600,"h":338,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":600,"h":338,"resize":"fit"},"small":{"w":340,"h":191,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 04:19:25 +0000 2015","id":642190687543382016,"id_str":"642190687543382016","text":"2
+        hashtag rules that will boost your social media audience @garyvee http:\/\/t.co\/vfNLuMW3Bd
+        http:\/\/t.co\/Q99KkHJkNl","source":"\u003ca href=\"http:\/\/www.socialflow.com\"
+        rel=\"nofollow\"\u003eSocialFlow\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":16896485,"id_str":"16896485","name":"Inc.
+        ","screen_name":"Inc","location":"New York City","description":"Everything
+        you need to know to start and grow your business now.","url":"http:\/\/t.co\/YslvkphWzr","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/YslvkphWzr","expanded_url":"http:\/\/www.inc.com","display_url":"inc.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":1445085,"friends_count":1689,"listed_count":26310,"created_at":"Tue
+        Oct 21 23:47:30 +0000 2008","favourites_count":664,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":99017,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"E8E8E8","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000172834508\/aGUoUmqB.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000172834508\/aGUoUmqB.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/539435715482750976\/mzF0N56L_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/539435715482750976\/mzF0N56L_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/16896485\/1439377438","profile_link_color":"CC3366","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DAECF4","profile_text_color":"663B12","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":4,"favorite_count":4,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"garyvee","name":"Gary
+        Vaynerchuk","id":5768872,"id_str":"5768872","indices":[59,67]}],"urls":[{"url":"http:\/\/t.co\/vfNLuMW3Bd","expanded_url":"http:\/\/bit.ly\/1Qril1X","display_url":"bit.ly\/1Qril1X","indices":[68,90]}],"media":[{"id":642190686582738944,"id_str":"642190686582738944","indices":[91,113],"media_url":"http:\/\/pbs.twimg.com\/media\/COmFBufUEAAfglB.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmFBufUEAAfglB.jpg","url":"http:\/\/t.co\/Q99KkHJkNl","display_url":"pic.twitter.com\/Q99KkHJkNl","expanded_url":"http:\/\/twitter.com\/Inc\/status\/642190687543382016\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":191,"resize":"fit"},"medium":{"w":600,"h":337,"resize":"fit"},"large":{"w":1024,"h":576,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642190686582738944,"id_str":"642190686582738944","indices":[91,113],"media_url":"http:\/\/pbs.twimg.com\/media\/COmFBufUEAAfglB.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmFBufUEAAfglB.jpg","url":"http:\/\/t.co\/Q99KkHJkNl","display_url":"pic.twitter.com\/Q99KkHJkNl","expanded_url":"http:\/\/twitter.com\/Inc\/status\/642190687543382016\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":191,"resize":"fit"},"medium":{"w":600,"h":337,"resize":"fit"},"large":{"w":1024,"h":576,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 04:18:26 +0000 2015","id":642190440045936640,"id_str":"642190440045936640","text":"Denver
+        judge to take final look at use-of-force case before statute of limitations
+        runs out http:\/\/t.co\/HffAXJh01X http:\/\/t.co\/qGAXwHPPtS","source":"\u003ca
+        href=\"https:\/\/about.twitter.com\/products\/tweetdeck\" rel=\"nofollow\"\u003eTweetDeck\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":18777618,"id_str":"18777618","name":"KDVR
+        FOX31 Denver","screen_name":"KDVR","location":"Denver, Colorado","description":"FOX31
+        Denver provides #BreakingNews, #COwx, traffic and sports for #Denver and the
+        greater Rocky Mountain Region.  Have a news tip? Email: tips@kdvr.com","url":"http:\/\/t.co\/Vn0YUBPFMJ","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/Vn0YUBPFMJ","expanded_url":"http:\/\/www.kdvr.com","display_url":"kdvr.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":70900,"friends_count":1426,"listed_count":1449,"created_at":"Thu
+        Jan 08 20:25:13 +0000 2009","favourites_count":452,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":95638,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000026049057\/f7df56507ef4e228218ba9ea4e697126.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000026049057\/f7df56507ef4e228218ba9ea4e697126.jpeg","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000143794637\/a4fccba7dacf12b2b876310786c5e7f4_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000143794637\/a4fccba7dacf12b2b876310786c5e7f4_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/18777618\/1436195700","profile_link_color":"009999","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/HffAXJh01X","expanded_url":"http:\/\/link.kdvr.com\/1OERzC1","display_url":"link.kdvr.com\/1OERzC1","indices":[92,114]}],"media":[{"id":642190356918874112,"id_str":"642190356918874112","indices":[115,137],"media_url":"http:\/\/pbs.twimg.com\/media\/COmEuiZUsAAemNp.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmEuiZUsAAemNp.jpg","url":"http:\/\/t.co\/qGAXwHPPtS","display_url":"pic.twitter.com\/qGAXwHPPtS","expanded_url":"http:\/\/twitter.com\/KDVR\/status\/642190440045936640\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":191,"resize":"fit"},"medium":{"w":600,"h":337,"resize":"fit"},"large":{"w":1024,"h":576,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642190356918874112,"id_str":"642190356918874112","indices":[115,137],"media_url":"http:\/\/pbs.twimg.com\/media\/COmEuiZUsAAemNp.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmEuiZUsAAemNp.jpg","url":"http:\/\/t.co\/qGAXwHPPtS","display_url":"pic.twitter.com\/qGAXwHPPtS","expanded_url":"http:\/\/twitter.com\/KDVR\/status\/642190440045936640\/photo\/1","type":"photo","sizes":{"thumb":{"w":150,"h":150,"resize":"crop"},"small":{"w":340,"h":191,"resize":"fit"},"medium":{"w":600,"h":337,"resize":"fit"},"large":{"w":1024,"h":576,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 04:17:06 +0000 2015","id":642190103792754688,"id_str":"642190103792754688","text":"Paper
+        may be the best app yet for taking notes on iPhones http:\/\/t.co\/yy7UCslcPy
+        http:\/\/t.co\/WdEYzCADFo","source":"\u003ca href=\"http:\/\/www.socialflow.com\"
+        rel=\"nofollow\"\u003eSocialFlow\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":1344951,"id_str":"1344951","name":"WIRED","screen_name":"WIRED","location":"San
+        Francisco\/New York","description":"WIRED is where tomorrow is realized.","url":"http:\/\/t.co\/AbRkBRjcYo","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/AbRkBRjcYo","expanded_url":"http:\/\/WIRED.com","display_url":"WIRED.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":5046073,"friends_count":233,"listed_count":81774,"created_at":"Sat
+        Mar 17 09:57:25 +0000 2007","favourites_count":1656,"utc_offset":-25200,"time_zone":"Pacific
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":49806,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":true,"profile_background_color":"000000","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/734548027\/5e5ee18945d22a9e2d9971208971bfdd.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/734548027\/5e5ee18945d22a9e2d9971208971bfdd.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/615598832726970372\/jsK-gBSt_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/615598832726970372\/jsK-gBSt_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/1344951\/1440020452","profile_link_color":"99DCF0","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"EEEEEE","profile_text_color":"000000","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":12,"favorite_count":30,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/yy7UCslcPy","expanded_url":"http:\/\/wrd.cm\/1NkToFm","display_url":"wrd.cm\/1NkToFm","indices":[58,80]}],"media":[{"id":642190103104786432,"id_str":"642190103104786432","indices":[81,103],"media_url":"http:\/\/pbs.twimg.com\/media\/COmEfw3VEAAQour.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmEfw3VEAAQour.jpg","url":"http:\/\/t.co\/WdEYzCADFo","display_url":"pic.twitter.com\/WdEYzCADFo","expanded_url":"http:\/\/twitter.com\/WIRED\/status\/642190103792754688\/photo\/1","type":"photo","sizes":{"medium":{"w":582,"h":388,"resize":"fit"},"large":{"w":582,"h":388,"resize":"fit"},"small":{"w":340,"h":226,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"}}}]},"extended_entities":{"media":[{"id":642190103104786432,"id_str":"642190103104786432","indices":[81,103],"media_url":"http:\/\/pbs.twimg.com\/media\/COmEfw3VEAAQour.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmEfw3VEAAQour.jpg","url":"http:\/\/t.co\/WdEYzCADFo","display_url":"pic.twitter.com\/WdEYzCADFo","expanded_url":"http:\/\/twitter.com\/WIRED\/status\/642190103792754688\/photo\/1","type":"photo","sizes":{"medium":{"w":582,"h":388,"resize":"fit"},"large":{"w":582,"h":388,"resize":"fit"},"small":{"w":340,"h":226,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 04:16:03 +0000 2015","id":642189837513191424,"id_str":"642189837513191424","text":"Denver
+        startups! Apply to the TC Meetup + Pitch-Off coming your way http:\/\/t.co\/zujOQ6Km0i
+        http:\/\/t.co\/xIP7hUmWXk","source":"\u003ca href=\"http:\/\/www.socialflow.com\"
+        rel=\"nofollow\"\u003eSocialFlow\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":816653,"id_str":"816653","name":"TechCrunch","screen_name":"TechCrunch","location":"San
+        Francisco, CA","description":"Breaking technology news, analysis, and opinions
+        from TechCrunch. The number one guide for all things tech.","url":"http:\/\/t.co\/b5Oyx12qGG","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/b5Oyx12qGG","expanded_url":"http:\/\/techcrunch.com","display_url":"techcrunch.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":5588908,"friends_count":719,"listed_count":99590,"created_at":"Wed
+        Mar 07 01:27:09 +0000 2007","favourites_count":760,"utc_offset":-25200,"time_zone":"Pacific
+        Time (US & Canada)","geo_enabled":true,"verified":true,"statuses_count":108151,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":true,"profile_background_color":"149500","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/621096023751004161\/BAKy7hCT.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/621096023751004161\/BAKy7hCT.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/615392662233808896\/EtxjSSKk_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/615392662233808896\/EtxjSSKk_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/816653\/1431096993","profile_link_color":"097000","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDFFCC","profile_text_color":"222222","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":5,"favorite_count":2,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/zujOQ6Km0i","expanded_url":"http:\/\/tcrn.ch\/1NkieoT","display_url":"tcrn.ch\/1NkieoT","indices":[68,90]}],"media":[{"id":642189836468813824,"id_str":"642189836468813824","indices":[91,113],"media_url":"http:\/\/pbs.twimg.com\/media\/COmEQPkXAAA34OC.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmEQPkXAAA34OC.jpg","url":"http:\/\/t.co\/xIP7hUmWXk","display_url":"pic.twitter.com\/xIP7hUmWXk","expanded_url":"http:\/\/twitter.com\/TechCrunch\/status\/642189837513191424\/photo\/1","type":"photo","sizes":{"medium":{"w":600,"h":390,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":738,"h":480,"resize":"fit"},"small":{"w":340,"h":221,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642189836468813824,"id_str":"642189836468813824","indices":[91,113],"media_url":"http:\/\/pbs.twimg.com\/media\/COmEQPkXAAA34OC.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmEQPkXAAA34OC.jpg","url":"http:\/\/t.co\/xIP7hUmWXk","display_url":"pic.twitter.com\/xIP7hUmWXk","expanded_url":"http:\/\/twitter.com\/TechCrunch\/status\/642189837513191424\/photo\/1","type":"photo","sizes":{"medium":{"w":600,"h":390,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":738,"h":480,"resize":"fit"},"small":{"w":340,"h":221,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 04:12:56 +0000 2015","id":642189056311468032,"id_str":"642189056311468032","text":"RT
+        @9Preps: Thursday night HS Football Scoreboard here: http:\/\/t.co\/3ufW2N8azO
+        #9news @9Preps","source":"\u003ca href=\"https:\/\/roundteam.co\" rel=\"nofollow\"\u003eRoundTeam\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":19032473,"id_str":"19032473","name":"9NEWS
+        Denver","screen_name":"9NEWS","location":"Denver, Colorado","description":"Headlines:
+        Yes, but use Twitter for much more: #BeOn9, #9WX, chats, etc. We use Twitter
+        to engage with you! We also, RT Team 9NEWS http:\/\/t.co\/sGKKRaZynN.","url":"http:\/\/t.co\/tqpZuE2KEo","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/tqpZuE2KEo","expanded_url":"http:\/\/www.9news.com","display_url":"9news.com","indices":[0,22]}]},"description":{"urls":[{"url":"http:\/\/t.co\/sGKKRaZynN","expanded_url":"http:\/\/on9news.tv\/9team","display_url":"on9news.tv\/9team","indices":[131,153]}]}},"protected":false,"followers_count":174342,"friends_count":18252,"listed_count":2684,"created_at":"Thu
+        Jan 15 18:32:46 +0000 2009","favourites_count":1004,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":true,"statuses_count":213188,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"13078B","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/575654239680114688\/PWqE92oA.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/575654239680114688\/PWqE92oA.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/607907370375585792\/98OHpInF_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/607907370375585792\/98OHpInF_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/19032473\/1426081767","profile_link_color":"821522","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"B3C2DF","profile_text_color":"333333","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Fri
+        Sep 11 04:08:05 +0000 2015","id":642187833420083201,"id_str":"642187833420083201","text":"Thursday
+        night HS Football Scoreboard here: http:\/\/t.co\/3ufW2N8azO #9news @9Preps","source":"\u003ca
+        href=\"http:\/\/twitter.com\/#!\/download\/ipad\" rel=\"nofollow\"\u003eTwitter
+        for iPad\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":54578940,"id_str":"54578940","name":"9NEWS
+        Prep Sports","screen_name":"9Preps","location":"Denver, CO","description":"Colorado
+        HS sports, news, scores, stats, photos & video brought to you by 9NEWS, KUSA-TV
+        & KTVD-TV.","url":"http:\/\/t.co\/HOkif9X2Ey","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/HOkif9X2Ey","expanded_url":"http:\/\/www.9news.com\/hss","display_url":"9news.com\/hss","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":13658,"friends_count":1548,"listed_count":226,"created_at":"Tue
+        Jul 07 15:29:33 +0000 2009","favourites_count":1282,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":true,"statuses_count":18767,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"131516","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme14\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/514989790165348352\/UYAKfTja_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/514989790165348352\/UYAKfTja_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/54578940\/1438809236","profile_link_color":"009999","profile_sidebar_border_color":"EEEEEE","profile_sidebar_fill_color":"EFEFEF","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":1,"favorite_count":2,"entities":{"hashtags":[{"text":"9news","indices":[67,73]}],"symbols":[],"user_mentions":[{"screen_name":"9Preps","name":"9NEWS
+        Prep Sports","id":54578940,"id_str":"54578940","indices":[74,81]}],"urls":[{"url":"http:\/\/t.co\/3ufW2N8azO","expanded_url":"http:\/\/www.9news.com\/hss","display_url":"9news.com\/hss","indices":[44,66]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},"is_quote_status":false,"retweet_count":1,"favorite_count":0,"entities":{"hashtags":[{"text":"9news","indices":[79,85]}],"symbols":[],"user_mentions":[{"screen_name":"9Preps","name":"9NEWS
+        Prep Sports","id":54578940,"id_str":"54578940","indices":[3,10]},{"screen_name":"9Preps","name":"9NEWS
+        Prep Sports","id":54578940,"id_str":"54578940","indices":[86,93]}],"urls":[{"url":"http:\/\/t.co\/3ufW2N8azO","expanded_url":"http:\/\/www.9news.com\/hss","display_url":"9news.com\/hss","indices":[56,78]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 04:12:30 +0000 2015","id":642188944134787072,"id_str":"642188944134787072","text":"4
+        cities you didn''t know were startup hotbeds http:\/\/t.co\/zcIGw4ZGfr @MarlaTabaka","source":"\u003ca
+        href=\"http:\/\/www.socialflow.com\" rel=\"nofollow\"\u003eSocialFlow\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":16896485,"id_str":"16896485","name":"Inc.
+        ","screen_name":"Inc","location":"New York City","description":"Everything
+        you need to know to start and grow your business now.","url":"http:\/\/t.co\/YslvkphWzr","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/YslvkphWzr","expanded_url":"http:\/\/www.inc.com","display_url":"inc.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":1445085,"friends_count":1689,"listed_count":26310,"created_at":"Tue
+        Oct 21 23:47:30 +0000 2008","favourites_count":664,"utc_offset":-14400,"time_zone":"Eastern
+        Time (US & Canada)","geo_enabled":false,"verified":true,"statuses_count":99017,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"E8E8E8","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000172834508\/aGUoUmqB.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000172834508\/aGUoUmqB.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/539435715482750976\/mzF0N56L_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/539435715482750976\/mzF0N56L_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/16896485\/1439377438","profile_link_color":"CC3366","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DAECF4","profile_text_color":"663B12","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":12,"favorite_count":9,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"MarlaTabaka","name":"Marla
+        Tabaka","id":14334725,"id_str":"14334725","indices":[69,81]}],"urls":[{"url":"http:\/\/t.co\/zcIGw4ZGfr","expanded_url":"http:\/\/bit.ly\/1JXEtfP","display_url":"bit.ly\/1JXEtfP","indices":[46,68]}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 04:11:00 +0000 2015","id":642188566232215552,"id_str":"642188566232215552","text":"#Football
+        is back! In honor of that, we''re just going to leave this post here of a
+        sign sp\u2026 http:\/\/t.co\/6pJnAxapXJ http:\/\/t.co\/cybyFBhQ91","source":"\u003ca
+        href=\"http:\/\/ifttt.com\" rel=\"nofollow\"\u003eIFTTT\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":19032473,"id_str":"19032473","name":"9NEWS
+        Denver","screen_name":"9NEWS","location":"Denver, Colorado","description":"Headlines:
+        Yes, but use Twitter for much more: #BeOn9, #9WX, chats, etc. We use Twitter
+        to engage with you! We also, RT Team 9NEWS http:\/\/t.co\/sGKKRaZynN.","url":"http:\/\/t.co\/tqpZuE2KEo","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/tqpZuE2KEo","expanded_url":"http:\/\/www.9news.com","display_url":"9news.com","indices":[0,22]}]},"description":{"urls":[{"url":"http:\/\/t.co\/sGKKRaZynN","expanded_url":"http:\/\/on9news.tv\/9team","display_url":"on9news.tv\/9team","indices":[131,153]}]}},"protected":false,"followers_count":174342,"friends_count":18252,"listed_count":2684,"created_at":"Thu
+        Jan 15 18:32:46 +0000 2009","favourites_count":1004,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":true,"statuses_count":213188,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"13078B","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/575654239680114688\/PWqE92oA.png","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/575654239680114688\/PWqE92oA.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/607907370375585792\/98OHpInF_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/607907370375585792\/98OHpInF_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/19032473\/1426081767","profile_link_color":"821522","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"B3C2DF","profile_text_color":"333333","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":11,"favorite_count":13,"entities":{"hashtags":[{"text":"Football","indices":[0,9]}],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/6pJnAxapXJ","expanded_url":"http:\/\/ift.tt\/1iBe8NT","display_url":"ift.tt\/1iBe8NT","indices":[92,114]}],"media":[{"id":642188566148292608,"id_str":"642188566148292608","indices":[115,137],"media_url":"http:\/\/pbs.twimg.com\/media\/COmDGTQWIAAitLI.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmDGTQWIAAitLI.jpg","url":"http:\/\/t.co\/cybyFBhQ91","display_url":"pic.twitter.com\/cybyFBhQ91","expanded_url":"http:\/\/twitter.com\/9NEWS\/status\/642188566232215552\/photo\/1","type":"photo","sizes":{"small":{"w":340,"h":340,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":640,"h":640,"resize":"fit"},"medium":{"w":600,"h":600,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642188566148292608,"id_str":"642188566148292608","indices":[115,137],"media_url":"http:\/\/pbs.twimg.com\/media\/COmDGTQWIAAitLI.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmDGTQWIAAitLI.jpg","url":"http:\/\/t.co\/cybyFBhQ91","display_url":"pic.twitter.com\/cybyFBhQ91","expanded_url":"http:\/\/twitter.com\/9NEWS\/status\/642188566232215552\/photo\/1","type":"photo","sizes":{"small":{"w":340,"h":340,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"large":{"w":640,"h":640,"resize":"fit"},"medium":{"w":600,"h":600,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"},{"created_at":"Fri
+        Sep 11 04:10:55 +0000 2015","id":642188545378099200,"id_str":"642188545378099200","text":"10
+        Boost startups from the UK that you should know about http:\/\/t.co\/oV2vvlwgVR
+        http:\/\/t.co\/cVvYYvx4PZ","source":"\u003ca href=\"http:\/\/www.socialflow.com\"
+        rel=\"nofollow\"\u003eSocialFlow\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":10876852,"id_str":"10876852","name":"The
+        Next Web","screen_name":"TheNextWeb","location":"The Interwebs.","description":"Welcome
+        to The Next Web on Twitter. Your source for International Technology News,
+        Business and Culture.","url":"http:\/\/t.co\/Zubn10uEIK","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/Zubn10uEIK","expanded_url":"http:\/\/thenextweb.com","display_url":"thenextweb.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":1618779,"friends_count":1175,"listed_count":29946,"created_at":"Wed
+        Dec 05 17:26:15 +0000 2007","favourites_count":1785,"utc_offset":7200,"time_zone":"Amsterdam","geo_enabled":false,"verified":true,"statuses_count":92082,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"FF3C1F","profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000164731038\/_3evIEjW.jpeg","profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000164731038\/_3evIEjW.jpeg","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/615443761083101184\/XCeLr1MZ_normal.png","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/615443761083101184\/XCeLr1MZ_normal.png","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/10876852\/1426875457","profile_link_color":"FF3C1F","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"F3F3F3","profile_text_color":"333333","profile_use_background_image":false,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":7,"favorite_count":8,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"http:\/\/t.co\/oV2vvlwgVR","expanded_url":"http:\/\/tnw.me\/F5Zvm8T","display_url":"tnw.me\/F5Zvm8T","indices":[57,79]}],"media":[{"id":642188544614596608,"id_str":"642188544614596608","indices":[80,102],"media_url":"http:\/\/pbs.twimg.com\/media\/COmDFDCUAAAz8Wa.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmDFDCUAAAz8Wa.jpg","url":"http:\/\/t.co\/cVvYYvx4PZ","display_url":"pic.twitter.com\/cVvYYvx4PZ","expanded_url":"http:\/\/twitter.com\/TheNextWeb\/status\/642188545378099200\/photo\/1","type":"photo","sizes":{"large":{"w":1024,"h":512,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":600,"h":300,"resize":"fit"},"small":{"w":340,"h":170,"resize":"fit"}}}]},"extended_entities":{"media":[{"id":642188544614596608,"id_str":"642188544614596608","indices":[80,102],"media_url":"http:\/\/pbs.twimg.com\/media\/COmDFDCUAAAz8Wa.jpg","media_url_https":"https:\/\/pbs.twimg.com\/media\/COmDFDCUAAAz8Wa.jpg","url":"http:\/\/t.co\/cVvYYvx4PZ","display_url":"pic.twitter.com\/cVvYYvx4PZ","expanded_url":"http:\/\/twitter.com\/TheNextWeb\/status\/642188545378099200\/photo\/1","type":"photo","sizes":{"large":{"w":1024,"h":512,"resize":"fit"},"thumb":{"w":150,"h":150,"resize":"crop"},"medium":{"w":600,"h":300,"resize":"fit"},"small":{"w":340,"h":170,"resize":"fit"}}}]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"possibly_sensitive_appealable":false,"lang":"en"}]'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 04:21:45 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json?skip_status=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="mTLyBXknuHQWtGBa4QBXFdGkn", oauth_nonce="97f0ae16cda4213a8cde9cce3d3ca854",
+        oauth_signature="hVNL5z%2F4DX4tyovjYI0aTbVuGNY%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1441945305", oauth_token="21419451-NdGFFUNbmmhujkkANewroA21K2roEweJOSMIul0sN",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '763'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 11 Sep 2015 04:21:45 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 11 Sep 2015 04:21:45 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A144194530594775121; Domain=.twitter.com; Path=/; Expires=Sun,
+        10-Sep-2017 04:21:45 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - d287ec2a44591f9dba83c0c312a81149
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '8'
+      X-Rate-Limit-Reset:
+      - '1441945936'
+      X-Response-Time:
+      - '19'
+      X-Transaction:
+      - cbef39fdf6974d15
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":21419451,"id_str":"21419451","name":"Samson Brock","screen_name":"imwithsam","location":"Denver,
+        CO","description":"Turing School of Software & Design student. @turingschool
+        10+ years of software engineering, web development, and IT consulting experience.","url":"http:\/\/t.co\/L9MK6DSqaj","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/L9MK6DSqaj","expanded_url":"http:\/\/badmotivator.io\/","display_url":"badmotivator.io","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":112,"friends_count":492,"listed_count":4,"created_at":"Fri
+        Feb 20 18:23:20 +0000 2009","favourites_count":102,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":103,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"BADFCD","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/21419451\/1433692998","profile_link_color":"FF0000","profile_sidebar_border_color":"F2E195","profile_sidebar_fill_color":"FFF7CC","profile_text_color":"0C3E53","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 04:21:46 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json?skip_status=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="mTLyBXknuHQWtGBa4QBXFdGkn", oauth_nonce="03ae81429f7950b43618c517a6b01ee4",
+        oauth_signature="piEWlHcHBxI8%2BUzaG14U%2F9qDHTU%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1441945306", oauth_token="21419451-NdGFFUNbmmhujkkANewroA21K2roEweJOSMIul0sN",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '763'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 11 Sep 2015 04:21:46 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 11 Sep 2015 04:21:46 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A144194530621672280; Domain=.twitter.com; Path=/; Expires=Sun,
+        10-Sep-2017 04:21:46 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 655316007e943cfd1ebe2dc27c022eac
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '7'
+      X-Rate-Limit-Reset:
+      - '1441945936'
+      X-Response-Time:
+      - '26'
+      X-Transaction:
+      - c0f63c214b3b2e09
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":21419451,"id_str":"21419451","name":"Samson Brock","screen_name":"imwithsam","location":"Denver,
+        CO","description":"Turing School of Software & Design student. @turingschool
+        10+ years of software engineering, web development, and IT consulting experience.","url":"http:\/\/t.co\/L9MK6DSqaj","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/L9MK6DSqaj","expanded_url":"http:\/\/badmotivator.io\/","display_url":"badmotivator.io","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":112,"friends_count":492,"listed_count":4,"created_at":"Fri
+        Feb 20 18:23:20 +0000 2009","favourites_count":102,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":103,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"BADFCD","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/21419451\/1433692998","profile_link_color":"FF0000","profile_sidebar_border_color":"F2E195","profile_sidebar_fill_color":"FFF7CC","profile_text_color":"0C3E53","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 04:21:46 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/account/verify_credentials.json?skip_status=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.15.0
+      Authorization:
+      - OAuth oauth_consumer_key="mTLyBXknuHQWtGBa4QBXFdGkn", oauth_nonce="d92e54ff279098ff3e11e38c250dc918",
+        oauth_signature="EcI5F7mzvO6hcV7CGDPhTyfo7lI%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1441945306", oauth_token="21419451-NdGFFUNbmmhujkkANewroA21K2roEweJOSMIul0sN",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '763'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 11 Sep 2015 04:21:46 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 11 Sep 2015 04:21:46 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_a
+      Set-Cookie:
+      - guest_id=v1%3A144194530648852493; Domain=.twitter.com; Path=/; Expires=Sun,
+        10-Sep-2017 04:21:46 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 5515d0c3d2758fc652d1c5ed8b87cd08
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '15'
+      X-Rate-Limit-Remaining:
+      - '6'
+      X-Rate-Limit-Reset:
+      - '1441945936'
+      X-Response-Time:
+      - '19'
+      X-Transaction:
+      - d2e22986ef34303d
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      - BouncerExempt
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":21419451,"id_str":"21419451","name":"Samson Brock","screen_name":"imwithsam","location":"Denver,
+        CO","description":"Turing School of Software & Design student. @turingschool
+        10+ years of software engineering, web development, and IT consulting experience.","url":"http:\/\/t.co\/L9MK6DSqaj","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/L9MK6DSqaj","expanded_url":"http:\/\/badmotivator.io\/","display_url":"badmotivator.io","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":112,"friends_count":492,"listed_count":4,"created_at":"Fri
+        Feb 20 18:23:20 +0000 2009","favourites_count":102,"utc_offset":-21600,"time_zone":"Mountain
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":103,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"BADFCD","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme12\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/606479431251550208\/uYn3hNom_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/21419451\/1433692998","profile_link_color":"FF0000","profile_sidebar_border_color":"F2E195","profile_sidebar_fill_color":"FFF7CC","profile_text_color":"0C3E53","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 04:21:46 GMT
+recorded_with: VCR 2.9.3
