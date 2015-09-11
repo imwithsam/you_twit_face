@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.feature "User can log out", type: :feature do
+RSpec.feature "Favorite Twit", type: :feature do
   before do
     # Short circuit OmniAuth requests to use a mock authentication hash
     OmniAuth.config.test_mode = true
@@ -29,14 +29,16 @@ RSpec.feature "User can log out", type: :feature do
       OmniAuth.config.mock_auth[:twitter]
   end
 
-  scenario "User logs in with Twitter then logs out" do
-    VCR.use_cassette("user_logs_in_with_twitter_then_logs_out") do
+  scenario "User favorites a Twit" do
+    VCR.use_cassette("user_favorites_a_twit") do
       visit root_path
       click_link "Login"
-      click_link "Logout"
+      within(first(".panel-footer")) do
+        first(:link).click
+      end
 
       within(".alert-success") do
-        expect(page).to have_content("You have been logged out.")
+        expect(page).to have_content("Twit favorited!")
       end
     end
   end

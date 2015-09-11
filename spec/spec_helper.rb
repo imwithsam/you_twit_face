@@ -18,10 +18,16 @@
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
   require 'simplecov'
-  SimpleCov.start 'rails'
   require 'capybara/rspec'
   require 'webmock'
   require 'vcr'
+
+  SimpleCov.start 'rails'
+
+  VCR.configure do |vcr_config|
+    vcr_config.cassette_library_dir = "spec/cassettes"
+    vcr_config.hook_into :webmock # or :fakeweb
+  end
 
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
